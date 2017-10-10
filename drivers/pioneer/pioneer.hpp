@@ -110,6 +110,13 @@ struct Pioneer {
     return pose;
   }
 
+  Info get_info(std::string name){
+    Info info;
+    info.name = name;
+    info.type = "robot";
+    return info;
+  }
+
   void set_pose(Pose const& pose) {
     robot.lock();
     robot.moveTo(ArPose(pose.position.x, pose.position.y, rad2deg(pose.heading)));

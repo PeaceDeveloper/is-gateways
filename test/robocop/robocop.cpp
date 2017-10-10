@@ -71,11 +71,22 @@ int main(int argc, char* argv[]) {
     client.request(entity + ".set_sample_rate", is::msgpack(sample_rate));
   }
 
+  auto req_id = client.request(entity + ".get_info", is::msgpack(0));
+  auto reply = client.receive_for(1s, req_id, is::policy::discard_others);
+  if (reply == nullptr) {
+    is::log::error("Request {} timeout!", req_id);
+  } else {
+    is::log::info("Reply: {} for req_id {}", is::msgpack<Info>(reply).name, req_id);
+  }
+
+  
   while (client.receive_for(1s) != nullptr) {
   }
 
   auto poses = is.subscribe({entity + ".pose"});
-  auto timestamps = is.subscribe({entity + ".timestamp"});
+  auto timestamps = is.subscribe({entity + ".timestamp"});  
+  //auto infos = is.subscribe("device.info", "metadata");
+  
 
   int i = 10;
   while (1) {
@@ -85,9 +96,12 @@ int main(int argc, char* argv[]) {
 
     auto pose_msg = is.consume(poses);
     auto timestamp_msg = is.consume(timestamps);
+    //auto info_msg = is.consume(infos);
 
     auto pose = is::msgpack<Pose>(pose_msg);
     auto timestamp = is::msgpack<Timestamp>(timestamp_msg);
+    //auto info = is::msgpack<Info>(info_msg);
+    //is::logger()->info("nome da entidade {}", info.name);
     
     is::logger()->info("[{}] {}, {}, {}", timestamp.nanoseconds, pose.position.x, pose.position.y,
                        rad2deg(pose.heading));

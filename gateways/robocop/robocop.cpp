@@ -1,11 +1,20 @@
 #include <boost/program_options.hpp>
+#include <signal.h>
 #include <iostream>
 #include "../../drivers/robocop/robocop.hpp"
 #include "../robot/robot.hpp"
 
 namespace po = boost::program_options;
 
+void sigint(int a)
+{
+    std::cout << a << std::endl;
+    std::cout << "exiting" << std::endl;
+    exit(0);
+}
+
 int main(int argc, char* argv[]) {
+  signal(SIGINT, sigint);
   //declaração de variáveis
   std::string uri; //url do broken
   std::string entity; //nome da entidade

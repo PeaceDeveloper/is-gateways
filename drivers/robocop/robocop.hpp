@@ -90,10 +90,17 @@ struct Robocop {
 
   Pose get_pose() {    
     Pose pose;
-    pose.position.x = 0;
+    pose.position.x = 2;
     pose.position.y = 0;
     pose.heading = deg2rad(2);
     return pose;
+  }
+  
+  Info get_info(std::string name){
+    Info info;
+    info.name = name;
+    info.type = "robot";
+    return info;
   }
 
   void set_pose(Pose const& pose) {
