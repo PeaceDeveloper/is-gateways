@@ -53,6 +53,7 @@ struct Robocop {
   std::condition_variable condition;
   std::thread thread;
   std::atomic<bool> running;
+  std::string serialport;
 
   Robocop() : connection(nullptr) {}
   Robocop(std::string const& port) { connect(port); }
@@ -67,15 +68,25 @@ struct Robocop {
   }
 
   void connect(std::string const& port) {
-    std::string x = port;
+    setSerialPort(port);
     initialize();
   }
 
   void connect(std::string const& hostname, int port) {
     std::string hstname = hostname;
-    port++;	
+    port = port;
     initialize();
   }
+
+  
+  std::string getSerialPort(){
+    return serialport;  
+  }
+
+  void setSerialPort(std::string const& serialPort){
+    serialport = serialPort;
+  }
+  
 
   void set_speed(Speed const& speed) {
     double x = speed.linear;

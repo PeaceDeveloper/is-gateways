@@ -24,7 +24,7 @@ struct Robot {
     //client.request("device.add_info", is::msgpack(robot.get_info(name)));
 
     is::neuronscontroller::Robot robcont;
-    robcont.add(name);    
+    robcont.add(name, robot.getSerialPort());
 
     auto thread = is::advertise(uri, name, {
       {

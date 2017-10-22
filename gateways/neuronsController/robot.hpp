@@ -5,11 +5,13 @@
 #include <memory>
 #include <cstdio>
 #include <rethinkdb.h>
+#include <chrono>
 
 namespace is{
 	namespace neuronscontroller{
 
 		namespace R = RethinkDB;
+		using namespace std::chrono;
 
 		struct Robot{
 				std::unique_ptr<R::Connection> conn;
@@ -28,19 +30,36 @@ namespace is{
 						}
 				};
 
-				//funcção para recuperar os gateways dos robôs
+				//função para recuperar os gateways dos robôs
+				void getRobots(){
+					R::Cursor cursor = R::db("neurons").table("robots").
+					filter(R::row["serialport"] > 11).run(*conn);
+					for (R::Datum& user : cursor) {
+						printf("%s\n", user.as_json().c_str());
+					}
+				}
+
 
 				//função para adicionar o gateway do robo
-				void add(std::string const& name){
-
-					R::db("neurons").table("robots").insert(
-						R::json("{\"id\": 1,\"serialport\": 12, \"name\": \" "+ name +" \"}")).run(*conn);
+				void add(std::string const& name, std::string const& serialport){
 					
-					R::Cursor cursor = R::db("neurons").table("robots").
-						filter(R::row["serialport"] > 11).run(*conn);
-					for (R::Datum& user : cursor) {
-					printf("%s\n", user.as_json().c_str());
+					milliseconds ms = duration_cast< milliseconds >(
+						system_clock::now().time_since_epoch()
+					);
+					long now = ms.count();
+					std::cout << "porta serial:" << std::endl;
+					std::cout << serialport << std::endl;
+
+					std::cout << "adding at: " + std::to_string(now) << std::endl;
+					try{
+						R::db("neurons").table("robots").insert(
+							R::json("{ \"serialport\":\""+ serialport + "\"" +
+							", \"time\":" + std::to_string(now) +
+							", \"name\": \""+ name +"\" }")).run(*conn);
+					}catch (RethinkDB::Error &err) {
+						std::cout << err.message.c_str() << std::endl;
 					}
+						
 				}
 
 				//função para remover o gateway do robo

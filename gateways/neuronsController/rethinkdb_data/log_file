@@ -86,3 +86,79 @@
 2017-10-10T00:45:03.935716974 3136.561102s notice: All client connections closed.
 2017-10-10T00:45:03.935724989 3136.561109s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2017-10-10T00:45:05.133160414 3137.758545s notice: Storage engine shut down.
+2017-10-18T08:40:05.214593799 0.359217s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2017-10-18T08:40:05.241687386 0.386314s notice: Running on Linux 4.10.0-37-generic x86_64
+2017-10-18T08:40:05.241874831 0.386495s notice: Loading data from directory /home/tiago/is-gateways mine/gateways/neuronsController/rethinkdb_data
+2017-10-18T08:40:05.448614492 0.593235s info: Automatically using cache size of 138 MB
+2017-10-18T08:40:05.463741838 0.608362s notice: Listening for intracluster connections on port 29015
+2017-10-18T08:40:05.771895450 0.916517s notice: Listening for client driver connections on port 28015
+2017-10-18T08:40:05.772799614 0.917420s notice: Listening for administrative HTTP connections on port 8080
+2017-10-18T08:40:05.772813065 0.917433s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T08:40:05.772821849 0.917441s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T08:40:05.772829666 0.917449s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T08:40:05.772865983 0.917486s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-18T08:40:05.772875102 0.917495s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2017-10-18T08:40:07.164018852 2.308639s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: Starting a new Raft election for term 4.
+2017-10-18T08:40:07.193959038 2.338580s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: This server is Raft leader for term 4. Latest log index is 8.
+2017-10-18T08:48:20.075014464 495.219635s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-10-18T08:48:20.075277639 495.219898s notice: Shutting down client connections...
+2017-10-18T08:48:20.075604918 495.220225s notice: All client connections closed.
+2017-10-18T08:48:20.075613747 495.220233s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-10-18T08:48:20.121836235 495.266457s notice: Storage engine shut down.
+2017-10-18T21:20:19.309296879 1.172948s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2017-10-18T21:20:19.484466687 1.348126s notice: Running on Linux 4.10.0-37-generic x86_64
+2017-10-18T21:20:19.484797814 1.348449s notice: Loading data from directory /home/tiago/is-gateways mine/gateways/neuronsController/rethinkdb_data
+2017-10-18T21:20:20.610061971 2.473713s info: Automatically using cache size of 546 MB
+2017-10-18T21:20:20.625514799 2.489166s notice: Listening for intracluster connections on port 29015
+2017-10-18T21:20:21.295594417 3.159245s notice: Listening for client driver connections on port 28015
+2017-10-18T21:20:21.296432260 3.160083s notice: Listening for administrative HTTP connections on port 8080
+2017-10-18T21:20:21.296439435 3.160090s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T21:20:21.296444815 3.160095s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T21:20:21.296449679 3.160100s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-18T21:20:21.296473054 3.160123s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-18T21:20:21.296478210 3.160129s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2017-10-18T21:20:22.175463144 4.039114s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: Starting a new Raft election for term 5.
+2017-10-18T21:20:22.196831148 4.060482s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: This server is Raft leader for term 5. Latest log index is 11.
+2017-10-18T22:48:21.430842663 5283.294497s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2017-10-18T23:00:31.724300156 6013.587951s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2017-10-18T23:00:31.782457526 6013.646109s notice: Shutting down client connections...
+2017-10-18T23:00:31.790587568 6013.654239s notice: All client connections closed.
+2017-10-18T23:00:31.790598608 6013.654249s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-10-18T23:00:33.381334368 6015.244985s notice: Storage engine shut down.
+2017-10-21T14:09:51.871978225 2.701306s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2017-10-21T14:09:51.916269111 2.745600s notice: Running on Linux 4.10.0-37-generic x86_64
+2017-10-21T14:09:51.916373789 2.745701s notice: Loading data from directory /home/tiago/is-gateways mine/gateways/neuronsController/rethinkdb_data
+2017-10-21T14:09:52.062364147 2.891692s info: Automatically using cache size of 100 MB
+2017-10-21T14:09:52.068104798 2.897432s warn: Cache size does not leave much memory for server and query overhead (available memory: 839 MB).
+2017-10-21T14:09:52.068112879 2.897440s warn: Cache size is very low and may impact performance.
+2017-10-21T14:09:52.081253652 2.910581s notice: Listening for intracluster connections on port 29015
+2017-10-21T14:09:52.154804391 2.984132s notice: Listening for client driver connections on port 28015
+2017-10-21T14:09:52.155020470 2.984348s notice: Listening for administrative HTTP connections on port 8080
+2017-10-21T14:09:52.155023899 2.984351s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T14:09:52.155026397 2.984353s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T14:09:52.155028900 2.984356s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T14:09:52.155037148 2.984364s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-21T14:09:52.155039578 2.984367s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2017-10-21T14:09:53.295507707 4.124835s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: Starting a new Raft election for term 6.
+2017-10-21T14:09:53.318265297 4.147593s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: This server is Raft leader for term 6. Latest log index is 14.
+2017-10-21T17:07:48.549090996 0.621891s notice: Running rethinkdb 2.3.6~0xenial (GCC 5.3.1)...
+2017-10-21T17:07:48.637189600 0.709994s notice: Running on Linux 4.10.0-37-generic x86_64
+2017-10-21T17:07:48.637281254 0.710081s notice: Loading data from directory /home/tiago/is-gateways mine/gateways/neuronsController/rethinkdb_data
+2017-10-21T17:07:48.942701668 1.015502s info: Automatically using cache size of 100 MB
+2017-10-21T17:07:48.948765347 1.021566s warn: Cache size does not leave much memory for server and query overhead (available memory: 1044 MB).
+2017-10-21T17:07:48.948772369 1.021572s warn: Cache size is very low and may impact performance.
+2017-10-21T17:07:48.960191867 1.032992s notice: Listening for intracluster connections on port 29015
+2017-10-21T17:07:49.461911400 1.534712s notice: Listening for client driver connections on port 28015
+2017-10-21T17:07:49.462501691 1.535302s notice: Listening for administrative HTTP connections on port 8080
+2017-10-21T17:07:49.462509722 1.535310s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T17:07:49.462534169 1.535334s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T17:07:49.462539459 1.535339s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2017-10-21T17:07:49.462544601 1.535345s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-10-21T17:07:49.462560312 1.535360s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2017-10-21T17:07:51.163298364 3.236099s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: Starting a new Raft election for term 7.
+2017-10-21T17:07:51.188335700 3.261136s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: This server is Raft leader for term 7. Latest log index is 17.
+2017-10-21T17:16:32.133818064 524.206618s notice: Removing file /home/tiago/is-gateways mine/gateways/neuronsController/rethinkdb_data/9e183db3-cdfb-484c-89d3-1708ceb9a538
+2017-10-21T17:16:32.133846717 524.206647s info: Table 9e183db3-cdfb-484c-89d3-1708ceb9a538: Deleted the table.
+2017-10-21T17:32:27.114435845 1479.187236s info: Table d08c619b-daf0-42e9-b6f1-599691cab845: Starting a new Raft election for term 1.
+2017-10-21T17:32:27.115181200 1479.187982s info: Table d08c619b-daf0-42e9-b6f1-599691cab845: Added replica on this server.
+2017-10-21T17:32:27.168337718 1479.241138s info: Table d08c619b-daf0-42e9-b6f1-599691cab845: This server is Raft leader for term 1. Latest log index is 0.
