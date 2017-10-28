@@ -37,12 +37,16 @@ int main(int argc, char* argv[]) {
   }
   auto is = is::connect(uri);
   auto client = is::make_client(is);
+  is::logger()->info("make client");
   auto status = is.subscribe("robotAtPosition.info", "sa-data");
+  is::logger()->info("subscrito");
  
   while (1) {
+    is::logger()->info("aguardando mensagem");
     auto status_msg = is.consume(status);
-    auto status = is::msgpack<Status>(status_msg);
-    is::logger()->info("razão {}", status.why);
+    is::logger()->info("mensagem consumida");
+    auto statusDecoded = is::msgpack<Status>(status_msg);
+    is::logger()->info("razão {}", statusDecoded.value);
   }
 
   /*

@@ -24,7 +24,7 @@ struct Robot {
     //client.request("device.add_info", is::msgpack(robot.get_info(name)));
 
     is::neuronscontroller::Robot robcont;
-    robcont.add(name, robot.getSerialPort());
+    robcont.add(name, robot.get_serial_port(), robot.get_max_speed());
 
     auto thread = is::advertise(uri, name, {
       {
@@ -69,6 +69,7 @@ struct Robot {
       robot.wait();
       is.publish(name + ".pose", is::msgpack(robot.get_pose()));
       is.publish(name + ".timestamp", is::msgpack(robot.get_last_timestamp()));
+      //is.publish("robotAtPosition.info", is::msgpack(status::ok));
     }
 
     thread.join();
