@@ -4,6 +4,7 @@
 #include <is/is.hpp>
 #include <is/msgs/common.hpp>
 #include <is/msgs/robot.hpp>
+#include "../neuronsController/robot.hpp"
 
 namespace is {
 namespace gw {
@@ -17,6 +18,14 @@ struct Robot {
 
   Robot(std::string const& name, std::string const& uri, ThreadSafeRobotDriver & robot) : is(is::connect(uri)) {
     // clang-format off
+    
+    //auto as = is::Connection(uri, "metadata");
+    //auto client = is::ServiceClient(as.channel, "metadata");
+    //client.request("device.add_info", is::msgpack(robot.get_info(name)));
+
+    is::neuronscontroller::Robot robcont;
+    robcont.add(name, robot.get_serial_port(), robot.get_max_speed());
+
     auto thread = is::advertise(uri, name, {
       {
         "set_speed", [&](is::Request request) -> is::Reply {
@@ -44,15 +53,23 @@ struct Robot {
       {
         "get_sample_rate", [&](is::Request) -> is::Reply {
           return is::msgpack(robot.get_sample_rate());
+      }
+      },
+      {
+        "get_info", [&](is::Request) -> is::Reply{
+          return is::msgpack(robot.get_info(name));
         }
       }
+
     });
     // clang-format on
+
     
     while (1) {
       robot.wait();
       is.publish(name + ".pose", is::msgpack(robot.get_pose()));
       is.publish(name + ".timestamp", is::msgpack(robot.get_last_timestamp()));
+      //is.publish("robotAtPosition.info", is::msgpack(status::ok));
     }
 
     thread.join();
