@@ -40,6 +40,8 @@ struct Robot {
       },
       {
         "set_pose", [&](is::Request request) -> is::Reply {
+          std::cout << "testing pose" << std::endl;
+          std::cout << is::msgpack<Pose>(request).position.x << std::endl;
           robot.set_pose(is::msgpack<Pose>(request));
           return is::msgpack(status::ok);
         }

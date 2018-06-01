@@ -97,6 +97,8 @@ struct Robocop {
   Robocop(std::string const& port) { connect(port); }
   Robocop(std::string const& hostname, int port) { connect(hostname, port); }
 
+  Pose pose;
+  int inc = 2;
   virtual ~Robocop() {
     running = false;
     thread.join();
@@ -127,9 +129,12 @@ struct Robocop {
     return {linear, deg2rad(angular)};
   }
 
-  Pose get_pose() {    
-    Pose pose;
-    pose.position.x = 2;
+  Pose get_pose() {
+    if (pose.position.x > 20)
+      inc = -2;
+    if (pose.position.x < -20)
+      inc = 2;
+    pose.position.x = pose.position.x + inc;
     pose.position.y = 0;
     pose.heading = deg2rad(2);
     return pose;
@@ -142,9 +147,11 @@ struct Robocop {
     return info;
   }
 
-  void set_pose(Pose const& pose) {
+  void set_pose(Pose const& p) {
     //robot.moveTo(ArPose(pose.position.x, pose.position.y, rad2deg(pose.heading)));
-    double x = pose.position.x; x++;
+    std::cout << "setting pose" << std::endl;
+    std::cout << p.position.x << std::endl;
+    pose = p;
   }
 
   void set_sample_rate(SamplingRate const& rate) {
@@ -178,9 +185,12 @@ struct Robocop {
 
  private:
   void initialize() {
-
     period_ms = 100;
     delay_ms = 0;
+    pose.position.x = 2;
+    pose.position.y = 0;
+    pose.position.z = 0;
+    pose.heading = deg2rad(2);
 
     auto loop = [this]() {
       running = true;

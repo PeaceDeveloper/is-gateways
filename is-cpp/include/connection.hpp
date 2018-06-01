@@ -30,6 +30,7 @@ struct Connection {
   Connection(Channel::ptr_t channel, std::string const& exchange = "data") : channel(channel) {
     // passive durable auto_delete
     channel->DeclareExchange(exchange, Channel::EXCHANGE_TYPE_TOPIC, false, false, false);
+    channel->DeclareExchange("sa-data", Channel::EXCHANGE_TYPE_TOPIC, false, false, false);
   }
 
   bool publish(std::string const& topic, BasicMessage::ptr_t message,

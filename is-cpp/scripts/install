@@ -93,11 +93,39 @@ function install::boost {
 	cd $install_path
 }
 
+function install::rabbitmq {
+	sudo apt install docker.io
+	sudo apt install curl
+	docker run -d -m 512M -p 15672:15672 -p 5672:5672 picoreti/rabbitmq:latest
+	curl -sSL https://get.docker.com/ | sh
+}
+
+function install::rethinkdb {
+	source "/etc/lsb-release"
+	echo "deb http://download.rethinkdb.com/apt $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list
+	wget -qO- https://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -
+	sudo apt-get update
+	sudo apt-get install rethinkdb
+	sudo apt-get install build-essential protobuf-compiler python \
+                     libprotobuf-dev libcurl4-openssl-dev \
+                     libboost-all-dev libncurses5-dev \
+                     libjemalloc-dev wget m4
+	wget https://download.rethinkdb.com/dist/rethinkdb-2.3.6.tgz
+	tar xf rethinkdb-2.3.6.tgz
+	cd rethinkdb-2.3.6
+	./configure --allow-fetch
+	make
+	sudo make install
+}
+
 apt-get update && apt-get install -y --ignore-missing \
 	build-essential cmake git pkg-config autoconf libtool \
 	libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev \
 	libssl-dev libpgm-dev libarmadillo-dev libopenblas-dev liblapack-dev liblapacke-dev \
 	libvorbis-dev libudev-dev libjpeg-dev libopenal-dev
+	
+	install::rabbitmq
+	install::rethinkdb
 
 if ! find::boost 1.63; then
 	install::boost
