@@ -101,8 +101,7 @@ int main(int argc, char* argv[]) {
     auto pose = is::msgpack<Pose>(pose_msg);
     auto timestamp = is::msgpack<Timestamp>(timestamp_msg);
     //auto info = is::msgpack<Info>(info_msg);
-    //is::logger()->info("nome da entidade {}", info.name);
-    
+    //is::logger()->info("nome da entidade {}", info.name);    
     is::logger()->info("[{}] {}, {}, {}", timestamp.nanoseconds, pose.position.x, pose.position.y,
                        rad2deg(pose.heading));
   }

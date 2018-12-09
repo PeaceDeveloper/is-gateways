@@ -1,0 +1,19 @@
+2018-12-07T04:06:19.605069938 2.241369s notice: Recursively removing directory /home/tiago/Documents/is-gateways/gateways/rethinkdb_data/tmp
+2018-12-07T04:06:19.650817218 2.287118s notice: Initializing directory /home/tiago/Documents/is-gateways/gateways/rethinkdb_data
+2018-12-07T04:06:19.650904360 2.287202s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/tiago/Documents/is-gateways/gateways/rethinkdb_data' did not already exist or is empty.)
+2018-12-07T04:06:19.786057575 2.422357s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-12-07T04:06:19.788882655 2.425182s notice: Running on Linux 4.15.0-42-generic x86_64
+2018-12-07T04:06:19.788936657 2.425235s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/rethinkdb_data
+2018-12-07T04:06:21.606389205 4.242690s info: Automatically using cache size of 2658 MB
+2018-12-07T04:06:21.680955365 4.317253s notice: Listening for intracluster connections on port 29015
+2018-12-07T04:06:21.738768793 4.375067s notice: Listening for client driver connections on port 28015
+2018-12-07T04:06:21.739006407 4.375304s notice: Listening for administrative HTTP connections on port 8080
+2018-12-07T04:06:21.739008358 4.375306s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-07T04:06:21.739012443 4.375310s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-07T04:06:21.739017577 4.375315s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-07T04:06:21.739024470 4.375322s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-07T04:06:21.739028756 4.375327s notice: Server ready, "tiago_Inspiron_5437_ncq" 4c45e7bd-6098-4215-8dfb-0bea2aaef005
+2018-12-07T04:10:38.927874462 261.564173s info: Table 7f445fab-51de-4da2-884c-e54a7d594343: Starting a new Raft election for term 1.
+2018-12-07T04:10:38.928198223 261.564496s info: Table 7f445fab-51de-4da2-884c-e54a7d594343: Added replica on this server.
+2018-12-07T04:10:39.007172655 261.643471s info: Table 7f445fab-51de-4da2-884c-e54a7d594343: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-07T04:10:39.851244828 262.487543s info: Table 7f445fab-51de-4da2-884c-e54a7d594343: Configuration is changing.

@@ -17,12 +17,7 @@ struct Robot {
   is::Connection is;
 
   Robot(std::string const& name, std::string const& uri, ThreadSafeRobotDriver & robot) : is(is::connect(uri)) {
-    // clang-format off
     
-    //auto as = is::Connection(uri, "metadata");
-    //auto client = is::ServiceClient(as.channel, "metadata");
-    //client.request("device.add_info", is::msgpack(robot.get_info(name)));
-
     is::neuronscontroller::Robot robcont;
     robcont.add(name, robot.get_serial_port(), robot.get_max_speed());
 

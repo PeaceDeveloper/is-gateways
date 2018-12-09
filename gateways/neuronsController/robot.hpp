@@ -6,7 +6,6 @@
 #include <cstdio>
 #include <rethinkdb.h>
 #include <chrono>
-
 #include <is/msgs/common.hpp>
 #include <is/msgs/geometry.hpp>
 #include <is/msgs/robot.hpp>
@@ -100,18 +99,8 @@ namespace is{
 					}catch (RethinkDB::Error &err) {
 						std::cout << err.message.c_str() << std::endl;
 					}
-				}
-
-				//função para remover o gateway do robo
-
-				//função para atualizar o gateway do robô
-
-				//função para adicionar as instancias do gateway do robo
-
-				//funções de busca inteligente
-			
+				}			
 			};
 	}
 }
 #endif //__IS_NEURONSCONTROLLER_ROBOT_HPP__
-

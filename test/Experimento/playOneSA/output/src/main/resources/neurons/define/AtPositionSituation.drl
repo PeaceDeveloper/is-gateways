@@ -1,0 +1,12 @@
+package neurons.define;
+import neurons.core.*;
+import br.ufes.inf.lprm.scene.base.*
+
+rule "AtPositionSituation"
+@role(situation)
+@type(Position)
+when
+	f1: Robot(pose.position.x == 2.0)
+then 
+	SituationHelper.situationDetected(drools); 
+end

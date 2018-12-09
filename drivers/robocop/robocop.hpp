@@ -97,7 +97,7 @@ struct Robocop {
   Robocop(std::string const& port) { connect(port); }
   Robocop(std::string const& hostname, int port) { connect(hostname, port); }
 
-  Pose pose;
+  Pose pose, poseTo;  
   int inc = 2;
   virtual ~Robocop() {
     running = false;
@@ -130,13 +130,22 @@ struct Robocop {
   }
 
   Pose get_pose() {
+    
+    if (pose.position.x == poseTo.position.x)
+      inc = 0;      
+    if (pose.position.x > poseTo.position.x)
+      inc = -1;
+    if (pose.position.x < poseTo.position.x)
+      inc = 1;
+    /*
     if (pose.position.x > 20)
       inc = -2;
     if (pose.position.x < -20)
-      inc = 2;
+      inc = 2;*/
     pose.position.x = pose.position.x + inc;
     pose.position.y = 0;
     pose.heading = deg2rad(2);
+    //std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     return pose;
   }
   
@@ -151,7 +160,7 @@ struct Robocop {
     //robot.moveTo(ArPose(pose.position.x, pose.position.y, rad2deg(pose.heading)));
     std::cout << "setting pose" << std::endl;
     std::cout << p.position.x << std::endl;
-    pose = p;
+    poseTo = p;
   }
 
   void set_sample_rate(SamplingRate const& rate) {
@@ -186,11 +195,16 @@ struct Robocop {
  private:
   void initialize() {
     period_ms = 100;
-    delay_ms = 0;
+    delay_ms = 1000;
     pose.position.x = 2;
     pose.position.y = 0;
-    pose.position.z = 0;
+    pose.position.z = 0;    
     pose.heading = deg2rad(2);
+
+    poseTo.position.x = 0;
+    poseTo.position.y = 0;
+    poseTo.position.z = 0;    
+    poseTo.heading = deg2rad(0);
 
     auto loop = [this]() {
       running = true;

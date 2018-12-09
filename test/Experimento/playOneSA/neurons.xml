@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<name>NeuronSAServiceDroneCamRobotSample</name>
+	<description>
+		Desenvolvimento de um conjunto de serviços que comporá a aplicação de um drone.
+		Serviço tais detectar fogo o drone investigar o local apontar a camera para o fogo e acioar os robos para apagar as chamas.
+		Serviço tais como detectar o barulho de passos o drone investigar o local, focar no rosto do bandido e acinar o dono.
+		Serviço tais como o drone detectar sujeira e drone acionar os robôs para fazer a limpeza.
+	</description>
+	<version>0.0.1-SNAPSHOT</version>
+	<connectionUrl>amqp://guest:guest@localhost</connectionUrl>
+	<datasourceUrl>localhost</datasourceUrl>
+	<defineSAServiceClass>neurons.define.DefineSituation</defineSAServiceClass>
+</project>

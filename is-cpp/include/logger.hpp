@@ -2,6 +2,7 @@
 #define __IS_LOGGER_HPP__
 
 #include <spdlog/spdlog.h>
+#include "spdlog/sinks/stdout_color_sinks.h"
 
 namespace is {
 

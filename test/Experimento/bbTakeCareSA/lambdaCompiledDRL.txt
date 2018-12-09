@@ -1,0 +1,1 @@
+status.value == "Cry" || status.value == "Alone"

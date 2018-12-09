@@ -555,3 +555,762 @@
 2018-05-16T00:13:35.200695206 6348.991290s info: Table 852832f8-5c5b-4800-a0af-7d843bd9f27f: This server is Raft leader for term 1. Latest log index is 0.
 2018-05-16T00:13:35.603747050 6349.394342s info: Table 852832f8-5c5b-4800-a0af-7d843bd9f27f: Configuration is changing.
 2018-05-16T00:22:49.112138645 6902.902735s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-06-01T18:51:09.695280743 1.432662s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-06-01T18:51:09.747642157 1.485023s notice: Running on Linux 4.13.0-43-generic x86_64
+2018-06-01T18:51:09.747773316 1.485151s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-06-01T18:51:10.517846759 2.255227s info: Automatically using cache size of 100 MB
+2018-06-01T18:51:10.518334544 2.255712s warn: Cache size does not leave much memory for server and query overhead (available memory: 569 MB).
+2018-06-01T18:51:10.518339939 2.255717s warn: Cache size is very low and may impact performance.
+2018-06-01T18:51:10.520877626 2.258255s notice: Listening for intracluster connections on port 29015
+2018-06-01T18:51:11.323965812 3.061343s notice: Listening for client driver connections on port 28015
+2018-06-01T18:51:11.325167033 3.062545s notice: Listening for administrative HTTP connections on port 8080
+2018-06-01T18:51:11.325173163 3.062550s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-01T18:51:11.325181401 3.062559s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-01T18:51:11.325829306 3.063207s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-01T18:51:11.325892227 3.063270s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-06-01T18:51:11.325957295 3.063335s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-06-01T18:51:13.032502311 4.769880s info: Table 852832f8-5c5b-4800-a0af-7d843bd9f27f: Starting a new Raft election for term 2.
+2018-06-01T18:51:13.062906447 4.800284s info: Table 852832f8-5c5b-4800-a0af-7d843bd9f27f: This server is Raft leader for term 2. Latest log index is 4.
+2018-06-01T18:53:15.704797422 127.442175s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/852832f8-5c5b-4800-a0af-7d843bd9f27f
+2018-06-01T18:53:15.704827869 127.442205s info: Table 852832f8-5c5b-4800-a0af-7d843bd9f27f: Deleted the table.
+2018-06-01T18:53:16.004055295 127.741433s info: Table ed0bfb69-f192-4cc0-8d81-22b846a12c9e: Starting a new Raft election for term 1.
+2018-06-01T18:53:16.004504787 127.741883s info: Table ed0bfb69-f192-4cc0-8d81-22b846a12c9e: Added replica on this server.
+2018-06-01T18:53:16.014337888 127.751716s info: Table ed0bfb69-f192-4cc0-8d81-22b846a12c9e: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-01T18:53:16.308321643 128.045699s info: Table ed0bfb69-f192-4cc0-8d81-22b846a12c9e: Configuration is changing.
+2018-06-02T11:50:27.807692564 5524.252521s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-06-02T14:48:28.501312006 16204.355245s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-06-02T14:49:11.461276843 16247.315207s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/ed0bfb69-f192-4cc0-8d81-22b846a12c9e
+2018-06-02T14:49:11.461342368 16247.315272s info: Table ed0bfb69-f192-4cc0-8d81-22b846a12c9e: Deleted the table.
+2018-06-02T14:49:13.206443716 16249.060373s info: Table 95df6db9-642e-446d-b3fb-99e461f53037: Starting a new Raft election for term 1.
+2018-06-02T14:49:13.231879949 16249.085810s info: Table 95df6db9-642e-446d-b3fb-99e461f53037: Added replica on this server.
+2018-06-02T14:49:13.418556348 16249.272485s info: Table 95df6db9-642e-446d-b3fb-99e461f53037: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-02T14:49:14.700526980 16250.554457s info: Table 95df6db9-642e-446d-b3fb-99e461f53037: Configuration is changing.
+2018-06-02T16:09:23.978264984 21059.832195s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/95df6db9-642e-446d-b3fb-99e461f53037
+2018-06-02T16:09:23.979218296 21059.833149s info: Table 95df6db9-642e-446d-b3fb-99e461f53037: Deleted the table.
+2018-06-02T16:09:24.830258260 21060.684188s info: Table e9178a39-6551-444c-811a-4a8a2d4b7448: Starting a new Raft election for term 1.
+2018-06-02T16:09:24.830757745 21060.684687s info: Table e9178a39-6551-444c-811a-4a8a2d4b7448: Added replica on this server.
+2018-06-02T16:09:24.897006576 21060.750936s info: Table e9178a39-6551-444c-811a-4a8a2d4b7448: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-02T16:09:25.526577271 21061.380507s info: Table e9178a39-6551-444c-811a-4a8a2d4b7448: Configuration is changing.
+2018-06-02T16:10:49.562106588 21145.416035s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/e9178a39-6551-444c-811a-4a8a2d4b7448
+2018-06-02T16:10:49.562137113 21145.416066s info: Table e9178a39-6551-444c-811a-4a8a2d4b7448: Deleted the table.
+2018-06-02T16:10:49.900914932 21145.754845s info: Table ce30451c-38b4-4a2f-a04d-c0ed72e2ae86: Starting a new Raft election for term 1.
+2018-06-02T16:10:49.901669384 21145.755599s info: Table ce30451c-38b4-4a2f-a04d-c0ed72e2ae86: Added replica on this server.
+2018-06-02T16:10:49.947776470 21145.801706s info: Table ce30451c-38b4-4a2f-a04d-c0ed72e2ae86: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-02T16:10:50.435505880 21146.289436s info: Table ce30451c-38b4-4a2f-a04d-c0ed72e2ae86: Configuration is changing.
+2018-06-02T16:12:28.053137226 21243.907066s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/ce30451c-38b4-4a2f-a04d-c0ed72e2ae86
+2018-06-02T16:12:28.053237807 21243.907167s info: Table ce30451c-38b4-4a2f-a04d-c0ed72e2ae86: Deleted the table.
+2018-06-02T16:12:28.245065868 21244.098995s info: Table 77a47c74-0ef0-4060-9486-e9c4f03449df: Starting a new Raft election for term 1.
+2018-06-02T16:12:28.245450955 21244.099380s info: Table 77a47c74-0ef0-4060-9486-e9c4f03449df: Added replica on this server.
+2018-06-02T16:12:28.254072467 21244.108001s info: Table 77a47c74-0ef0-4060-9486-e9c4f03449df: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-02T16:12:28.757281032 21244.611211s info: Table 77a47c74-0ef0-4060-9486-e9c4f03449df: Configuration is changing.
+2018-06-02T18:15:34.901115695 28630.755046s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-06-02T18:38:05.088262513 29980.942202s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/77a47c74-0ef0-4060-9486-e9c4f03449df
+2018-06-02T18:38:05.088292946 29980.942222s info: Table 77a47c74-0ef0-4060-9486-e9c4f03449df: Deleted the table.
+2018-06-02T18:38:15.461850931 29991.315780s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: Starting a new Raft election for term 1.
+2018-06-02T18:38:15.462386134 29991.316315s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: Added replica on this server.
+2018-06-02T18:38:15.618684886 29991.472614s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-02T18:38:20.567841207 29996.421771s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: Configuration is changing.
+2018-06-21T10:12:07.448181802 0.605498s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-06-21T10:12:07.552529570 0.709814s notice: Running on Linux 4.13.0-45-generic x86_64
+2018-06-21T10:12:07.552935279 0.710211s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-06-21T10:12:08.668148233 1.825429s info: Automatically using cache size of 100 MB
+2018-06-21T10:12:08.668778808 1.826077s warn: Cache size does not leave much memory for server and query overhead (available memory: 711 MB).
+2018-06-21T10:12:08.668845411 1.826120s warn: Cache size is very low and may impact performance.
+2018-06-21T10:12:08.833788223 1.991063s notice: Listening for intracluster connections on port 29015
+2018-06-21T10:12:13.166454768 6.323730s notice: Listening for client driver connections on port 28015
+2018-06-21T10:12:13.202481488 6.359757s notice: Listening for administrative HTTP connections on port 8080
+2018-06-21T10:12:13.202488528 6.359763s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T10:12:13.202490903 6.359765s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T10:12:13.202493213 6.359767s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T10:12:13.202606484 6.359881s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-06-21T10:12:13.202618703 6.359893s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-06-21T10:12:13.910547360 7.067822s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: Starting a new Raft election for term 2.
+2018-06-21T10:12:13.932664182 7.089939s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: This server is Raft leader for term 2. Latest log index is 4.
+2018-06-21T10:13:37.003990080 90.161264s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/1a05cd92-2a5d-4f13-8626-e320a51514ee
+2018-06-21T10:13:37.004041093 90.161316s info: Table 1a05cd92-2a5d-4f13-8626-e320a51514ee: Deleted the table.
+2018-06-21T10:13:37.141868978 90.299143s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: Starting a new Raft election for term 1.
+2018-06-21T10:13:37.142184956 90.299459s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: Added replica on this server.
+2018-06-21T10:13:37.197833116 90.355107s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-21T10:13:37.507631832 90.664907s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: Configuration is changing.
+2018-06-21T10:59:30.455055934 2843.612331s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-06-21T10:59:30.561125252 2843.718400s notice: Shutting down client connections...
+2018-06-21T10:59:30.563562804 2843.720837s notice: All client connections closed.
+2018-06-21T10:59:30.563574794 2843.720849s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-06-21T10:59:30.796868186 2843.954143s notice: Storage engine shut down.
+2018-06-21T11:05:07.624968646 0.361768s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-06-21T11:05:07.755991849 0.492792s notice: Running on Linux 4.13.0-45-generic x86_64
+2018-06-21T11:05:07.756168080 0.492964s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-06-21T11:05:07.969118309 0.705921s info: Automatically using cache size of 608 MB
+2018-06-21T11:05:07.972855581 0.709652s notice: Listening for intracluster connections on port 29015
+2018-06-21T11:05:08.310472036 1.047268s notice: Listening for client driver connections on port 28015
+2018-06-21T11:05:08.310859097 1.047655s notice: Listening for administrative HTTP connections on port 8080
+2018-06-21T11:05:08.310863566 1.047659s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T11:05:08.310866318 1.047662s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T11:05:08.310868720 1.047664s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T11:05:08.310908048 1.047703s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-06-21T11:05:08.310912532 1.047708s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-06-21T11:05:10.095922011 2.832718s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: Starting a new Raft election for term 2.
+2018-06-21T11:05:10.097735623 2.834531s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: This server is Raft leader for term 2. Latest log index is 4.
+2018-06-21T11:06:56.284424177 109.021220s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/c82dd69c-6071-49b5-abc4-f774d8d3eb8b
+2018-06-21T11:06:56.284455341 109.021251s info: Table c82dd69c-6071-49b5-abc4-f774d8d3eb8b: Deleted the table.
+2018-06-21T11:06:56.558415235 109.295211s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: Starting a new Raft election for term 1.
+2018-06-21T11:06:56.558665229 109.295461s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: Added replica on this server.
+2018-06-21T11:06:56.566761895 109.303557s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-21T11:06:57.052334443 109.789130s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: Configuration is changing.
+2018-06-21T11:29:33.721575597 1466.458373s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-06-21T11:29:33.722077426 1466.458874s notice: Shutting down client connections...
+2018-06-21T11:29:33.726139776 1466.462936s notice: All client connections closed.
+2018-06-21T11:29:33.726152390 1466.462948s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-06-21T11:29:33.907038969 1466.643835s notice: Storage engine shut down.
+2018-06-21T15:52:28.469985259 0.307751s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-06-21T15:52:28.539483263 0.377240s notice: Running on Linux 4.13.0-45-generic x86_64
+2018-06-21T15:52:28.539627184 0.377380s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-06-21T15:52:28.705893436 0.543651s info: Automatically using cache size of 100 MB
+2018-06-21T15:52:28.706665896 0.544419s warn: Cache size does not leave much memory for server and query overhead (available memory: 757 MB).
+2018-06-21T15:52:28.706678636 0.544431s warn: Cache size is very low and may impact performance.
+2018-06-21T15:52:28.710660358 0.548413s notice: Listening for intracluster connections on port 29015
+2018-06-21T15:52:29.061401955 0.899155s notice: Listening for client driver connections on port 28015
+2018-06-21T15:52:29.062047250 0.899801s notice: Listening for administrative HTTP connections on port 8080
+2018-06-21T15:52:29.062057542 0.899810s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T15:52:29.062064960 0.899817s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T15:52:29.062102317 0.899855s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-06-21T15:52:29.062110344 0.899863s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-06-21T15:52:29.062118583 0.899871s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-06-21T15:52:30.054851203 1.892604s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: Starting a new Raft election for term 2.
+2018-06-21T15:52:30.060011438 1.897764s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: This server is Raft leader for term 2. Latest log index is 4.
+2018-06-21T15:52:52.398149421 24.235902s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/5c791aa2-26e1-4995-9a7b-429d75a4e869
+2018-06-21T15:52:52.398156354 24.235908s info: Table 5c791aa2-26e1-4995-9a7b-429d75a4e869: Deleted the table.
+2018-06-21T15:52:52.711316072 24.549069s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: Starting a new Raft election for term 1.
+2018-06-21T15:52:52.712541880 24.550295s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: Added replica on this server.
+2018-06-21T15:52:52.759106530 24.596860s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: This server is Raft leader for term 1. Latest log index is 0.
+2018-06-21T15:52:53.039240670 24.876994s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: Configuration is changing.
+2018-07-20T13:53:07.193857680 0.296500s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-07-20T13:53:07.273623142 0.376253s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T13:53:07.273805159 0.376431s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-07-20T13:53:07.513319208 0.615958s info: Automatically using cache size of 100 MB
+2018-07-20T13:53:07.514312168 0.616939s warn: Cache size does not leave much memory for server and query overhead (available memory: 674 MB).
+2018-07-20T13:53:07.514327144 0.616953s warn: Cache size is very low and may impact performance.
+2018-07-20T13:53:07.519791610 0.622419s notice: Listening for intracluster connections on port 29015
+2018-07-20T13:53:07.744975737 0.847602s notice: Listening for client driver connections on port 28015
+2018-07-20T13:53:07.745456138 0.848082s notice: Listening for administrative HTTP connections on port 8080
+2018-07-20T13:53:07.745465044 0.848091s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T13:53:07.745470564 0.848096s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T13:53:07.745475604 0.848101s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T13:53:07.745557140 0.848183s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-07-20T13:53:07.745565061 0.848191s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-07-20T13:53:09.396065153 2.498691s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: Starting a new Raft election for term 2.
+2018-07-20T13:53:09.419871208 2.522497s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: This server is Raft leader for term 2. Latest log index is 4.
+2018-07-20T14:00:38.942364322 452.044990s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/2bbc7a77-adac-412d-81ab-9183f0f1c49f
+2018-07-20T14:00:38.942387080 452.045013s info: Table 2bbc7a77-adac-412d-81ab-9183f0f1c49f: Deleted the table.
+2018-07-20T14:00:39.080745895 452.183372s info: Table cc447d8f-a99a-480f-9228-c09cd577512d: Starting a new Raft election for term 1.
+2018-07-20T14:00:39.081100231 452.183726s info: Table cc447d8f-a99a-480f-9228-c09cd577512d: Added replica on this server.
+2018-07-20T14:00:39.104872446 452.207498s info: Table cc447d8f-a99a-480f-9228-c09cd577512d: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T14:00:39.433552673 452.536179s info: Table cc447d8f-a99a-480f-9228-c09cd577512d: Configuration is changing.
+2018-07-20T14:29:00.886448640 2153.989075s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Starting a new Raft election for term 1.
+2018-07-20T14:29:00.936220888 2154.038848s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Added replica on this server.
+2018-07-20T14:29:01.013426406 2154.116053s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T14:29:08.718138375 2161.820764s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Configuration is changing.
+2018-07-20T15:17:29.247483960 5062.350110s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/cc447d8f-a99a-480f-9228-c09cd577512d
+2018-07-20T15:17:29.247707587 5062.350334s info: Table cc447d8f-a99a-480f-9228-c09cd577512d: Deleted the table.
+2018-07-20T15:17:29.472898274 5062.575525s info: Table fb4e7e42-d33f-494d-a234-6413fbf7588b: Starting a new Raft election for term 1.
+2018-07-20T15:17:29.473941375 5062.576568s info: Table fb4e7e42-d33f-494d-a234-6413fbf7588b: Added replica on this server.
+2018-07-20T15:17:29.528776613 5062.631403s info: Table fb4e7e42-d33f-494d-a234-6413fbf7588b: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T15:17:30.046646464 5063.149273s info: Table fb4e7e42-d33f-494d-a234-6413fbf7588b: Configuration is changing.
+2018-07-20T15:28:13.346171866 5706.448798s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/fb4e7e42-d33f-494d-a234-6413fbf7588b
+2018-07-20T15:28:13.346207784 5706.448834s info: Table fb4e7e42-d33f-494d-a234-6413fbf7588b: Deleted the table.
+2018-07-20T15:28:13.810163751 5706.912790s info: Table 3d86299c-3f72-40d5-aea7-24340fc4a7b8: Starting a new Raft election for term 1.
+2018-07-20T15:28:13.810549033 5706.913175s info: Table 3d86299c-3f72-40d5-aea7-24340fc4a7b8: Added replica on this server.
+2018-07-20T15:28:13.847714081 5706.950340s info: Table 3d86299c-3f72-40d5-aea7-24340fc4a7b8: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T15:28:14.312395359 5707.415021s info: Table 3d86299c-3f72-40d5-aea7-24340fc4a7b8: Configuration is changing.
+2018-07-20T16:04:41.132113100 7894.234740s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3d86299c-3f72-40d5-aea7-24340fc4a7b8
+2018-07-20T16:04:41.132177655 7894.234804s info: Table 3d86299c-3f72-40d5-aea7-24340fc4a7b8: Deleted the table.
+2018-07-20T16:04:41.350904525 7894.453531s info: Table fffe2d25-b599-482b-b0c0-4359b494a89b: Starting a new Raft election for term 1.
+2018-07-20T16:04:41.351458518 7894.454084s info: Table fffe2d25-b599-482b-b0c0-4359b494a89b: Added replica on this server.
+2018-07-20T16:04:41.371477271 7894.474104s info: Table fffe2d25-b599-482b-b0c0-4359b494a89b: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T16:04:41.897234093 7894.999860s info: Table fffe2d25-b599-482b-b0c0-4359b494a89b: Configuration is changing.
+2018-07-20T18:02:48.932487444 14982.035114s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/fffe2d25-b599-482b-b0c0-4359b494a89b
+2018-07-20T18:02:48.932866125 14982.035494s info: Table fffe2d25-b599-482b-b0c0-4359b494a89b: Deleted the table.
+2018-07-20T18:02:49.346744938 14982.449371s info: Table 3b6d50d4-c2cf-4aaa-8272-da32258451df: Starting a new Raft election for term 1.
+2018-07-20T18:02:49.347457339 14982.450083s info: Table 3b6d50d4-c2cf-4aaa-8272-da32258451df: Added replica on this server.
+2018-07-20T18:02:49.378678546 14982.481305s info: Table 3b6d50d4-c2cf-4aaa-8272-da32258451df: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T18:02:49.857440309 14982.960066s info: Table 3b6d50d4-c2cf-4aaa-8272-da32258451df: Configuration is changing.
+2018-07-20T18:31:57.555507470 16730.658134s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3b6d50d4-c2cf-4aaa-8272-da32258451df
+2018-07-20T18:31:57.555523660 16730.658149s info: Table 3b6d50d4-c2cf-4aaa-8272-da32258451df: Deleted the table.
+2018-07-20T18:31:59.599785534 16732.702411s info: Table 6f574524-5a3f-4354-8c3f-f98d4471e425: Starting a new Raft election for term 1.
+2018-07-20T18:31:59.600070864 16732.702697s info: Table 6f574524-5a3f-4354-8c3f-f98d4471e425: Added replica on this server.
+2018-07-20T18:31:59.677220059 16732.779846s info: Table 6f574524-5a3f-4354-8c3f-f98d4471e425: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T18:32:01.591896216 16734.694523s info: Table 6f574524-5a3f-4354-8c3f-f98d4471e425: Configuration is changing.
+2018-07-20T18:32:08.399387095 16741.502013s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-07-20T18:48:05.061637203 17698.164264s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/6f574524-5a3f-4354-8c3f-f98d4471e425
+2018-07-20T18:48:05.061705243 17698.164332s info: Table 6f574524-5a3f-4354-8c3f-f98d4471e425: Deleted the table.
+2018-07-20T18:48:06.345597958 17699.448224s info: Table 3e80806a-5a08-4691-8d8a-541074c978cd: Starting a new Raft election for term 1.
+2018-07-20T18:48:06.346041420 17699.448667s info: Table 3e80806a-5a08-4691-8d8a-541074c978cd: Added replica on this server.
+2018-07-20T18:48:06.496521681 17699.599148s info: Table 3e80806a-5a08-4691-8d8a-541074c978cd: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T18:48:07.388080519 17700.490706s info: Table 3e80806a-5a08-4691-8d8a-541074c978cd: Configuration is changing.
+2018-07-20T18:53:15.363744938 18008.466371s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3e80806a-5a08-4691-8d8a-541074c978cd
+2018-07-20T18:53:15.363798724 18008.466425s info: Table 3e80806a-5a08-4691-8d8a-541074c978cd: Deleted the table.
+2018-07-20T18:53:15.729791662 18008.832418s info: Table 3fdf0201-4f22-4e7a-aa99-12a8feda0dd5: Starting a new Raft election for term 1.
+2018-07-20T18:53:15.730193468 18008.832819s info: Table 3fdf0201-4f22-4e7a-aa99-12a8feda0dd5: Added replica on this server.
+2018-07-20T18:53:15.769528373 18008.872154s info: Table 3fdf0201-4f22-4e7a-aa99-12a8feda0dd5: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T18:53:16.623509006 18009.726135s info: Table 3fdf0201-4f22-4e7a-aa99-12a8feda0dd5: Configuration is changing.
+2018-07-20T18:58:46.628553966 18339.731180s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3fdf0201-4f22-4e7a-aa99-12a8feda0dd5
+2018-07-20T18:58:46.628563223 18339.731189s info: Table 3fdf0201-4f22-4e7a-aa99-12a8feda0dd5: Deleted the table.
+2018-07-20T18:58:47.019795479 18340.122422s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: Starting a new Raft election for term 1.
+2018-07-20T18:58:47.020265708 18340.122892s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: Added replica on this server.
+2018-07-20T18:58:47.061303413 18340.163930s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T18:58:47.911321383 18341.013948s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: Configuration is changing.
+2018-07-20T19:06:03.670268886 0.694715s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-07-20T19:06:04.641806359 1.665899s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T19:06:04.643102421 1.667191s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-07-20T19:06:08.422335243 5.446428s info: Automatically using cache size of 100 MB
+2018-07-20T19:06:08.422782237 5.446871s warn: Cache size does not leave much memory for server and query overhead (available memory: 470 MB).
+2018-07-20T19:06:08.422786918 5.446876s warn: Cache size is very low and may impact performance.
+2018-07-20T19:06:08.427841183 5.451930s notice: Listening for intracluster connections on port 29015
+2018-07-20T19:06:11.647871438 8.671961s notice: Listening for client driver connections on port 28015
+2018-07-20T19:06:11.649363440 8.673453s notice: Listening for administrative HTTP connections on port 8080
+2018-07-20T19:06:11.649369130 8.673458s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:06:11.649372357 8.673461s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:06:11.649375439 8.673464s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:06:11.649421755 8.673511s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-07-20T19:06:11.649426784 8.673516s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-07-20T19:06:12.983858227 10.007948s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Starting a new Raft election for term 2.
+2018-07-20T19:06:13.067297664 10.091387s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: Starting a new Raft election for term 2.
+2018-07-20T19:06:13.945316415 10.969405s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: This server is Raft leader for term 2. Latest log index is 4.
+2018-07-20T19:06:14.030533421 11.054622s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: This server is Raft leader for term 2. Latest log index is 4.
+2018-07-20T19:06:43.689375275 40.713467s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/d8c375b7-4b7f-4731-b726-1763775546c8
+2018-07-20T19:06:43.689445704 40.713536s info: Table d8c375b7-4b7f-4731-b726-1763775546c8: Deleted the table.
+2018-07-20T19:06:46.545509017 43.569598s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: Starting a new Raft election for term 1.
+2018-07-20T19:06:46.545867097 43.569956s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: Added replica on this server.
+2018-07-20T19:06:47.459007984 44.483097s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:06:49.764193122 46.788282s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: Configuration is changing.
+2018-07-20T19:12:11.529651297 368.553741s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-20T19:12:11.539369922 368.563462s notice: Shutting down client connections...
+2018-07-20T19:12:11.580695686 368.604785s notice: All client connections closed.
+2018-07-20T19:12:11.580724785 368.604814s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-20T19:12:11.641625678 368.665715s notice: Storage engine shut down.
+2018-07-20T19:12:14.407431560 0.207636s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-07-20T19:12:14.425374274 0.225580s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-20T19:12:14.425525354 0.225726s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-07-20T19:12:14.575442895 0.375648s info: Automatically using cache size of 100 MB
+2018-07-20T19:12:14.575784922 0.375986s warn: Cache size does not leave much memory for server and query overhead (available memory: 553 MB).
+2018-07-20T19:12:14.575808948 0.376009s warn: Cache size is very low and may impact performance.
+2018-07-20T19:12:14.578094817 0.378296s notice: Listening for intracluster connections on port 29015
+2018-07-20T19:12:14.728529135 0.528730s notice: Listening for client driver connections on port 28015
+2018-07-20T19:12:14.730899171 0.531101s notice: Listening for administrative HTTP connections on port 8080
+2018-07-20T19:12:14.730924631 0.531125s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:12:14.730929017 0.531129s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:12:14.730932109 0.531132s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-20T19:12:14.730935214 0.531136s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-07-20T19:12:14.730938346 0.531139s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-07-20T19:12:15.921926206 1.722128s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Starting a new Raft election for term 3.
+2018-07-20T19:12:15.944570819 1.744772s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: This server is Raft leader for term 3. Latest log index is 7.
+2018-07-20T19:12:16.303413720 2.103615s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: Starting a new Raft election for term 2.
+2018-07-20T19:12:16.314872200 2.115073s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: This server is Raft leader for term 2. Latest log index is 4.
+2018-07-20T19:12:19.336701967 5.136903s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/7ef1d884-90ab-4b32-a620-236c97989920
+2018-07-20T19:12:19.336736435 5.136937s info: Table 7ef1d884-90ab-4b32-a620-236c97989920: Deleted the table.
+2018-07-20T19:12:19.511636908 5.311838s info: Table 7d9ab533-e416-4eee-b19a-23b49789ddf4: Starting a new Raft election for term 1.
+2018-07-20T19:12:19.512119279 5.312320s info: Table 7d9ab533-e416-4eee-b19a-23b49789ddf4: Added replica on this server.
+2018-07-20T19:12:19.530774473 5.330975s info: Table 7d9ab533-e416-4eee-b19a-23b49789ddf4: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:12:20.026288542 5.826491s info: Table 7d9ab533-e416-4eee-b19a-23b49789ddf4: Configuration is changing.
+2018-07-20T19:13:24.230988860 70.031190s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/7d9ab533-e416-4eee-b19a-23b49789ddf4
+2018-07-20T19:13:24.231011605 70.031212s info: Table 7d9ab533-e416-4eee-b19a-23b49789ddf4: Deleted the table.
+2018-07-20T19:13:24.327040935 70.127242s info: Table 51fc341d-8a1e-4d73-88e5-4241c62e0804: Starting a new Raft election for term 1.
+2018-07-20T19:13:24.327358662 70.127559s info: Table 51fc341d-8a1e-4d73-88e5-4241c62e0804: Added replica on this server.
+2018-07-20T19:13:24.346455457 70.146656s info: Table 51fc341d-8a1e-4d73-88e5-4241c62e0804: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:13:24.834569982 70.634771s info: Table 51fc341d-8a1e-4d73-88e5-4241c62e0804: Configuration is changing.
+2018-07-20T19:15:18.682431910 184.482633s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/51fc341d-8a1e-4d73-88e5-4241c62e0804
+2018-07-20T19:15:18.682450926 184.482652s info: Table 51fc341d-8a1e-4d73-88e5-4241c62e0804: Deleted the table.
+2018-07-20T19:15:18.795428869 184.595630s info: Table 2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02: Starting a new Raft election for term 1.
+2018-07-20T19:15:18.798285593 184.598486s info: Table 2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02: Added replica on this server.
+2018-07-20T19:15:18.814537546 184.614738s info: Table 2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:15:19.313158370 185.113360s info: Table 2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02: Configuration is changing.
+2018-07-20T19:17:42.006938852 327.807140s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02
+2018-07-20T19:17:42.006961535 327.807162s info: Table 2b0d9fc7-a3bb-43fc-9f56-7e71f5029f02: Deleted the table.
+2018-07-20T19:17:42.124451769 327.924653s info: Table 2b24c34c-733f-4822-8e2a-b04d4d0ed3fc: Starting a new Raft election for term 1.
+2018-07-20T19:17:42.124798119 327.924999s info: Table 2b24c34c-733f-4822-8e2a-b04d4d0ed3fc: Added replica on this server.
+2018-07-20T19:17:42.143119460 327.943320s info: Table 2b24c34c-733f-4822-8e2a-b04d4d0ed3fc: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:17:42.633777350 328.433979s info: Table 2b24c34c-733f-4822-8e2a-b04d4d0ed3fc: Configuration is changing.
+2018-07-20T19:22:06.843756163 592.643957s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/2b24c34c-733f-4822-8e2a-b04d4d0ed3fc
+2018-07-20T19:22:06.843778642 592.643979s info: Table 2b24c34c-733f-4822-8e2a-b04d4d0ed3fc: Deleted the table.
+2018-07-20T19:22:07.491209627 593.291411s info: Table 3d1a43d2-123a-4bd1-8932-eb1716d96b8f: Starting a new Raft election for term 1.
+2018-07-20T19:22:07.491990948 593.292193s info: Table 3d1a43d2-123a-4bd1-8932-eb1716d96b8f: Added replica on this server.
+2018-07-20T19:22:07.532637048 593.332838s info: Table 3d1a43d2-123a-4bd1-8932-eb1716d96b8f: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T19:22:08.026465109 593.826667s info: Table 3d1a43d2-123a-4bd1-8932-eb1716d96b8f: Configuration is changing.
+2018-07-20T19:58:14.845411613 2760.645614s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-07-20T20:10:30.332842877 3496.133044s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/4f93880a-f791-4d28-bcfc-bc1c80c68b8a
+2018-07-20T20:10:30.332887519 3496.133089s info: Table 4f93880a-f791-4d28-bcfc-bc1c80c68b8a: Deleted the table.
+2018-07-20T20:16:59.846213836 3885.646415s info: Table 710c795e-eea9-4667-90f9-02cc27f7c977: Starting a new Raft election for term 1.
+2018-07-20T20:17:00.151321970 3885.951523s info: Table 710c795e-eea9-4667-90f9-02cc27f7c977: Added replica on this server.
+2018-07-20T20:17:00.277739087 3886.077940s info: Table 710c795e-eea9-4667-90f9-02cc27f7c977: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T20:17:03.078600117 3888.878801s info: Table 710c795e-eea9-4667-90f9-02cc27f7c977: Configuration is changing.
+2018-07-20T20:26:35.452319416 4461.252520s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/710c795e-eea9-4667-90f9-02cc27f7c977
+2018-07-20T20:26:35.452351524 4461.252553s info: Table 710c795e-eea9-4667-90f9-02cc27f7c977: Deleted the table.
+2018-07-20T20:26:47.138278441 4472.938480s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3d1a43d2-123a-4bd1-8932-eb1716d96b8f
+2018-07-20T20:26:47.138373377 4472.938576s info: Table 3d1a43d2-123a-4bd1-8932-eb1716d96b8f: Deleted the table.
+2018-07-20T20:26:48.815583737 4474.615785s info: Table 087560e8-5a45-4673-92f8-0c0fae94280b: Starting a new Raft election for term 1.
+2018-07-20T20:26:48.856862750 4474.657064s info: Table 087560e8-5a45-4673-92f8-0c0fae94280b: Added replica on this server.
+2018-07-20T20:26:49.096004548 4474.896205s info: Table 087560e8-5a45-4673-92f8-0c0fae94280b: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T20:26:50.433368506 4476.233569s info: Table 087560e8-5a45-4673-92f8-0c0fae94280b: Configuration is changing.
+2018-07-20T20:27:28.291835526 4514.092037s info: Table facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f: Starting a new Raft election for term 1.
+2018-07-20T20:27:28.292155470 4514.092356s info: Table facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f: Added replica on this server.
+2018-07-20T20:27:28.408849655 4514.209051s info: Table facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T20:27:29.290375810 4515.090577s info: Table facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f: Configuration is changing.
+2018-07-20T20:31:33.024126304 4758.824327s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f
+2018-07-20T20:31:33.024158541 4758.824359s info: Table facf77a2-86d9-4c3e-b6ba-76b6a7f45f2f: Deleted the table.
+2018-07-20T20:32:13.546156270 4799.346357s info: Table 6737d91c-4160-4394-aad5-4e8342e5ea8a: Starting a new Raft election for term 1.
+2018-07-20T20:32:13.546463853 4799.346664s info: Table 6737d91c-4160-4394-aad5-4e8342e5ea8a: Added replica on this server.
+2018-07-20T20:32:13.565756094 4799.365957s info: Table 6737d91c-4160-4394-aad5-4e8342e5ea8a: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T20:47:24.944784456 5710.744986s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/087560e8-5a45-4673-92f8-0c0fae94280b
+2018-07-20T20:47:24.944844658 5710.745046s info: Table 087560e8-5a45-4673-92f8-0c0fae94280b: Deleted the table.
+2018-07-20T20:47:25.930620681 5711.730822s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: Starting a new Raft election for term 1.
+2018-07-20T20:47:25.934517728 5711.734719s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: Added replica on this server.
+2018-07-20T20:47:26.038624865 5711.838827s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-20T20:47:26.912239666 5712.712440s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: Configuration is changing.
+2018-07-20T20:51:23.619926326 5949.420127s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/6737d91c-4160-4394-aad5-4e8342e5ea8a
+2018-07-20T20:51:23.620048906 5949.420250s info: Table 6737d91c-4160-4394-aad5-4e8342e5ea8a: Deleted the table.
+2018-07-20T20:52:15.742005920 6001.542207s info: Table cf983ba1-e58f-4768-adca-118841598f20: Starting a new Raft election for term 1.
+2018-07-20T20:52:15.791238648 6001.591439s info: Table cf983ba1-e58f-4768-adca-118841598f20: Added replica on this server.
+2018-07-20T20:52:15.802524533 6001.602725s info: Table cf983ba1-e58f-4768-adca-118841598f20: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T12:27:09.192046601 0.836149s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-07-21T12:27:10.484546198 2.128646s notice: Running on Linux 4.15.0-24-generic x86_64
+2018-07-21T12:27:10.484697684 2.128795s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-07-21T12:27:16.389802208 8.033903s info: Automatically using cache size of 100 MB
+2018-07-21T12:27:16.390113945 8.034211s warn: Cache size does not leave much memory for server and query overhead (available memory: 978 MB).
+2018-07-21T12:27:16.390119071 8.034216s warn: Cache size is very low and may impact performance.
+2018-07-21T12:27:16.392173065 8.036270s notice: Listening for intracluster connections on port 29015
+2018-07-21T12:27:22.434266184 14.078363s notice: Listening for client driver connections on port 28015
+2018-07-21T12:27:22.434810650 14.078908s notice: Listening for administrative HTTP connections on port 8080
+2018-07-21T12:27:22.434812659 14.078909s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-21T12:27:22.434816310 14.078913s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-21T12:27:22.434817151 14.078914s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-07-21T12:27:22.434820157 14.078917s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-07-21T12:27:22.434821057 14.078918s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-07-21T12:27:22.962115890 14.606213s info: Table cf983ba1-e58f-4768-adca-118841598f20: Starting a new Raft election for term 2.
+2018-07-21T12:27:23.070754703 14.714852s info: Table cf983ba1-e58f-4768-adca-118841598f20: This server is Raft leader for term 2. Latest log index is 3.
+2018-07-21T12:27:23.360080802 15.004178s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: Starting a new Raft election for term 2.
+2018-07-21T12:27:23.547826854 15.191924s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: This server is Raft leader for term 2. Latest log index is 4.
+2018-07-21T12:33:38.793864178 390.437961s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/e5f6daa3-721a-4c45-826d-2d3aa4413841
+2018-07-21T12:33:38.793966408 390.438063s info: Table e5f6daa3-721a-4c45-826d-2d3aa4413841: Deleted the table.
+2018-07-21T12:33:39.323988914 390.968086s info: Table fccc3eff-8438-47d3-a036-e74a23a20f55: Starting a new Raft election for term 1.
+2018-07-21T12:33:39.324356710 390.968454s info: Table fccc3eff-8438-47d3-a036-e74a23a20f55: Added replica on this server.
+2018-07-21T12:33:39.342506474 390.986604s info: Table fccc3eff-8438-47d3-a036-e74a23a20f55: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T12:33:39.859110917 391.503209s info: Table fccc3eff-8438-47d3-a036-e74a23a20f55: Configuration is changing.
+2018-07-21T12:37:47.970925470 639.615022s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/fccc3eff-8438-47d3-a036-e74a23a20f55
+2018-07-21T12:37:47.970949725 639.615047s info: Table fccc3eff-8438-47d3-a036-e74a23a20f55: Deleted the table.
+2018-07-21T12:37:48.341770658 639.985868s info: Table 6da5cad8-b5e3-47bd-a5fa-97c44336d694: Starting a new Raft election for term 1.
+2018-07-21T12:37:48.342125589 639.986223s info: Table 6da5cad8-b5e3-47bd-a5fa-97c44336d694: Added replica on this server.
+2018-07-21T12:37:48.434769865 640.078867s info: Table 6da5cad8-b5e3-47bd-a5fa-97c44336d694: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T12:37:49.245098941 640.889196s info: Table 6da5cad8-b5e3-47bd-a5fa-97c44336d694: Configuration is changing.
+2018-07-21T12:41:07.295416468 838.939513s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/cf983ba1-e58f-4768-adca-118841598f20
+2018-07-21T12:41:07.295465385 838.939562s info: Table cf983ba1-e58f-4768-adca-118841598f20: Deleted the table.
+2018-07-21T12:42:03.369416435 895.013513s info: Table 4fce0f39-3d09-486d-aecc-35169ac515e4: Starting a new Raft election for term 1.
+2018-07-21T12:42:03.369865329 895.013962s info: Table 4fce0f39-3d09-486d-aecc-35169ac515e4: Added replica on this server.
+2018-07-21T12:42:03.556734469 895.200832s info: Table 4fce0f39-3d09-486d-aecc-35169ac515e4: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T13:00:49.713274121 2020.662156s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/4fce0f39-3d09-486d-aecc-35169ac515e4
+2018-07-21T13:00:49.713317558 2020.662199s info: Table 4fce0f39-3d09-486d-aecc-35169ac515e4: Deleted the table.
+2018-07-21T13:01:23.756104818 2054.704988s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-07-21T13:06:44.527164333 2375.476046s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/6da5cad8-b5e3-47bd-a5fa-97c44336d694
+2018-07-21T13:06:44.527195488 2375.476077s info: Table 6da5cad8-b5e3-47bd-a5fa-97c44336d694: Deleted the table.
+2018-07-21T13:06:50.052210432 2381.001093s info: Table 4e1d6490-54df-4eb7-a6b9-7864ebab0fee: Starting a new Raft election for term 1.
+2018-07-21T13:06:50.052558361 2381.001440s info: Table 4e1d6490-54df-4eb7-a6b9-7864ebab0fee: Added replica on this server.
+2018-07-21T13:06:50.160265558 2381.109148s info: Table f6d3a98a-d088-4ffc-80df-fa1443e53544: Starting a new Raft election for term 1.
+2018-07-21T13:06:50.177631184 2381.126513s info: Table f6d3a98a-d088-4ffc-80df-fa1443e53544: Added replica on this server.
+2018-07-21T13:06:50.248687557 2381.197570s info: Table 4e1d6490-54df-4eb7-a6b9-7864ebab0fee: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T13:06:50.249292386 2381.198174s info: Table f6d3a98a-d088-4ffc-80df-fa1443e53544: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T13:11:02.775835344 2633.724717s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/4e1d6490-54df-4eb7-a6b9-7864ebab0fee
+2018-07-21T13:11:02.775910072 2633.724792s info: Table 4e1d6490-54df-4eb7-a6b9-7864ebab0fee: Deleted the table.
+2018-07-21T13:11:02.845487501 2633.794369s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/f6d3a98a-d088-4ffc-80df-fa1443e53544
+2018-07-21T13:11:02.845579053 2633.794461s info: Table f6d3a98a-d088-4ffc-80df-fa1443e53544: Deleted the table.
+2018-07-21T13:11:09.262054241 2640.210936s info: Table 16541194-49c7-495e-ad5b-4ad55f062511: Starting a new Raft election for term 1.
+2018-07-21T13:11:09.262281146 2640.211163s info: Table 16541194-49c7-495e-ad5b-4ad55f062511: Added replica on this server.
+2018-07-21T13:11:09.281238276 2640.230120s info: Table 16541194-49c7-495e-ad5b-4ad55f062511: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T13:11:09.765788013 2640.714671s info: Table 16541194-49c7-495e-ad5b-4ad55f062511: Configuration is changing.
+2018-07-21T13:11:16.654515713 2647.603398s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/16541194-49c7-495e-ad5b-4ad55f062511
+2018-07-21T13:11:16.654538850 2647.603421s info: Table 16541194-49c7-495e-ad5b-4ad55f062511: Deleted the table.
+2018-07-21T13:11:16.955367241 2647.904250s info: Table f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1: Starting a new Raft election for term 1.
+2018-07-21T13:11:16.956068793 2647.904951s info: Table f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1: Added replica on this server.
+2018-07-21T13:11:16.973815847 2647.922699s info: Table f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T13:11:17.552181681 2648.501064s info: Table f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1: Configuration is changing.
+2018-07-21T13:11:46.545774566 2677.494656s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 1.
+2018-07-21T13:11:46.546080096 2677.494962s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Added replica on this server.
+2018-07-21T13:11:46.596299201 2677.545182s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:40:11.454673034 11582.403555s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1
+2018-07-21T15:40:11.454731299 11582.403613s info: Table f6886f04-1e9b-4dae-9bf4-a4302a7fb4d1: Deleted the table.
+2018-07-21T15:40:12.650009417 11583.598891s info: Table 6c3fddc0-58b8-45e1-9e39-a2f05b666eeb: Starting a new Raft election for term 1.
+2018-07-21T15:40:12.650382110 11583.599264s info: Table 6c3fddc0-58b8-45e1-9e39-a2f05b666eeb: Added replica on this server.
+2018-07-21T15:40:12.716116751 11583.664999s info: Table 6c3fddc0-58b8-45e1-9e39-a2f05b666eeb: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:40:13.207416406 11584.156299s info: Table 6c3fddc0-58b8-45e1-9e39-a2f05b666eeb: Configuration is changing.
+2018-07-21T15:42:36.511201034 11727.460083s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/6c3fddc0-58b8-45e1-9e39-a2f05b666eeb
+2018-07-21T15:42:36.511208250 11727.460090s info: Table 6c3fddc0-58b8-45e1-9e39-a2f05b666eeb: Deleted the table.
+2018-07-21T15:42:36.707662275 11727.656544s info: Table 2791fc36-8912-4a69-a782-ae2323a2c302: Added replica on this server.
+2018-07-21T15:42:36.707738748 11727.656620s info: Table 2791fc36-8912-4a69-a782-ae2323a2c302: Starting a new Raft election for term 1.
+2018-07-21T15:42:36.724271550 11727.673153s info: Table 2791fc36-8912-4a69-a782-ae2323a2c302: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:42:37.215032729 11728.163915s info: Table 2791fc36-8912-4a69-a782-ae2323a2c302: Configuration is changing.
+2018-07-21T15:46:05.862449270 11936.811331s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/2791fc36-8912-4a69-a782-ae2323a2c302
+2018-07-21T15:46:05.862475804 11936.811358s info: Table 2791fc36-8912-4a69-a782-ae2323a2c302: Deleted the table.
+2018-07-21T15:46:06.045037840 11936.993920s info: Table 3df27d7d-04c5-4087-a72e-b8b7786dba2d: Starting a new Raft election for term 1.
+2018-07-21T15:46:06.045308227 11936.994190s info: Table 3df27d7d-04c5-4087-a72e-b8b7786dba2d: Added replica on this server.
+2018-07-21T15:46:06.064526764 11937.013409s info: Table 3df27d7d-04c5-4087-a72e-b8b7786dba2d: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:46:06.549068963 11937.497951s info: Table 3df27d7d-04c5-4087-a72e-b8b7786dba2d: Configuration is changing.
+2018-07-21T15:49:32.711816566 12143.660698s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/3df27d7d-04c5-4087-a72e-b8b7786dba2d
+2018-07-21T15:49:32.711845654 12143.660727s info: Table 3df27d7d-04c5-4087-a72e-b8b7786dba2d: Deleted the table.
+2018-07-21T15:49:32.835204735 12143.784087s info: Table 222d811f-3373-4ebd-adf9-18d054c835c1: Starting a new Raft election for term 1.
+2018-07-21T15:49:32.835556857 12143.784438s info: Table 222d811f-3373-4ebd-adf9-18d054c835c1: Added replica on this server.
+2018-07-21T15:49:32.844663714 12143.793546s info: Table 222d811f-3373-4ebd-adf9-18d054c835c1: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:49:33.318804469 12144.267686s info: Table 222d811f-3373-4ebd-adf9-18d054c835c1: Configuration is changing.
+2018-07-21T15:52:23.728663335 12314.677545s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2018-07-21T15:55:01.496026966 12472.444910s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/222d811f-3373-4ebd-adf9-18d054c835c1
+2018-07-21T15:55:01.496532353 12472.445526s info: Table 222d811f-3373-4ebd-adf9-18d054c835c1: Deleted the table.
+2018-07-21T15:55:01.957965640 12472.906848s info: Table e9134c38-0cdc-4cc8-b8c0-2afc1ef34029: Added replica on this server.
+2018-07-21T15:55:01.958049487 12472.906931s info: Table e9134c38-0cdc-4cc8-b8c0-2afc1ef34029: Starting a new Raft election for term 1.
+2018-07-21T15:55:01.975807566 12472.924690s info: Table e9134c38-0cdc-4cc8-b8c0-2afc1ef34029: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:55:02.476083151 12473.424965s info: Table e9134c38-0cdc-4cc8-b8c0-2afc1ef34029: Configuration is changing.
+2018-07-21T15:57:41.082566384 12632.031448s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/e9134c38-0cdc-4cc8-b8c0-2afc1ef34029
+2018-07-21T15:57:41.082591282 12632.031473s info: Table e9134c38-0cdc-4cc8-b8c0-2afc1ef34029: Deleted the table.
+2018-07-21T15:57:41.225554130 12632.174436s info: Table bd97ba3a-161b-413b-a385-7849972c6c3b: Starting a new Raft election for term 1.
+2018-07-21T15:57:41.225805404 12632.174687s info: Table bd97ba3a-161b-413b-a385-7849972c6c3b: Added replica on this server.
+2018-07-21T15:57:41.235112697 12632.183995s info: Table bd97ba3a-161b-413b-a385-7849972c6c3b: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:57:41.483175461 12632.432057s info: Table bd97ba3a-161b-413b-a385-7849972c6c3b: Configuration is changing.
+2018-07-21T15:59:52.594714066 12763.543596s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/bd97ba3a-161b-413b-a385-7849972c6c3b
+2018-07-21T15:59:52.594763155 12763.543645s info: Table bd97ba3a-161b-413b-a385-7849972c6c3b: Deleted the table.
+2018-07-21T15:59:52.730347457 12763.679229s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: Starting a new Raft election for term 1.
+2018-07-21T15:59:52.730629393 12763.679511s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: Added replica on this server.
+2018-07-21T15:59:52.745229851 12763.694112s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: This server is Raft leader for term 1. Latest log index is 0.
+2018-07-21T15:59:53.279768080 12764.228650s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: Configuration is changing.
+2018-07-21T16:25:56.330772533 14326.243725s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-07-21T16:25:56.434607710 14326.347556s notice: Shutting down client connections...
+2018-07-21T16:25:56.438625737 14326.351574s notice: All client connections closed.
+2018-07-21T16:25:56.438630646 14326.351579s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-07-21T16:25:56.831788518 14326.744737s notice: Storage engine shut down.
+2018-08-06T14:52:53.665997254 0.728877s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-08-06T14:52:53.876144514 0.939083s notice: Running on Linux 4.15.0-29-generic x86_64
+2018-08-06T14:52:53.884708036 0.947556s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-08-06T14:52:56.230565307 3.293425s info: Automatically using cache size of 449 MB
+2018-08-06T14:52:56.273780563 3.336628s notice: Listening for intracluster connections on port 29015
+2018-08-06T14:52:59.017936586 6.080783s notice: Listening for client driver connections on port 28015
+2018-08-06T14:52:59.018244042 6.081091s notice: Listening for administrative HTTP connections on port 8080
+2018-08-06T14:52:59.018249057 6.081095s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-06T14:52:59.018299173 6.081146s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-06T14:52:59.018303593 6.081150s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-06T14:52:59.018307991 6.081154s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-06T14:52:59.018311315 6.081157s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-08-06T14:52:59.055693622 6.118540s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 2.
+2018-08-06T14:52:59.571883061 6.634730s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 2. Latest log index is 3.
+2018-08-06T14:52:59.734947215 6.797794s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: Starting a new Raft election for term 2.
+2018-08-06T14:52:59.817018598 6.879865s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: This server is Raft leader for term 2. Latest log index is 4.
+2018-08-06T15:09:40.743054110 1007.805901s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/ccf9a8b8-581f-4453-8fb2-2880373caef6
+2018-08-06T15:09:40.743086336 1007.805933s info: Table ccf9a8b8-581f-4453-8fb2-2880373caef6: Deleted the table.
+2018-08-06T15:09:40.874602846 1007.937449s info: Table 37291316-76d9-4541-9eda-6b071df48276: Starting a new Raft election for term 1.
+2018-08-06T15:09:40.874989620 1007.937836s info: Table 37291316-76d9-4541-9eda-6b071df48276: Added replica on this server.
+2018-08-06T15:09:40.891607682 1007.954454s info: Table 37291316-76d9-4541-9eda-6b071df48276: This server is Raft leader for term 1. Latest log index is 0.
+2018-08-06T15:09:41.403404833 1008.466252s info: Table 37291316-76d9-4541-9eda-6b071df48276: Configuration is changing.
+2018-08-23T12:25:51.643601172 80.222852s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-08-23T12:25:51.690253652 80.269495s notice: Running on Linux 4.15.0-29-generic x86_64
+2018-08-23T12:25:51.690736946 80.269975s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-08-23T12:25:51.803771651 80.383014s info: Automatically using cache size of 100 MB
+2018-08-23T12:25:51.804214222 80.383452s warn: Cache size does not leave much memory for server and query overhead (available memory: 1026 MB).
+2018-08-23T12:25:51.804271430 80.383509s warn: Cache size is very low and may impact performance.
+2018-08-23T12:25:51.806176126 80.385414s notice: Listening for intracluster connections on port 29015
+2018-08-23T12:25:51.994556115 80.573794s notice: Listening for client driver connections on port 28015
+2018-08-23T12:25:51.994787018 80.574025s notice: Listening for administrative HTTP connections on port 8080
+2018-08-23T12:25:51.994953622 80.574191s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-23T12:25:51.994956853 80.574194s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-23T12:25:51.994958768 80.574196s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-08-23T12:25:51.994960680 80.574198s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-08-23T12:25:51.994962564 80.574200s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-08-23T12:25:53.251931040 81.831169s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 3.
+2018-08-23T12:25:53.254117330 81.833355s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 3. Latest log index is 7.
+2018-08-23T12:25:53.702888051 82.282127s info: Table 37291316-76d9-4541-9eda-6b071df48276: Starting a new Raft election for term 2.
+2018-08-23T12:25:53.706217401 82.285456s info: Table 37291316-76d9-4541-9eda-6b071df48276: This server is Raft leader for term 2. Latest log index is 4.
+2018-08-23T12:26:12.597615014 101.176854s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-08-23T12:26:40.121229979 128.700468s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/37291316-76d9-4541-9eda-6b071df48276
+2018-08-23T12:26:40.121285664 128.700523s info: Table 37291316-76d9-4541-9eda-6b071df48276: Deleted the table.
+2018-08-23T12:26:40.218565685 128.797803s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: Starting a new Raft election for term 1.
+2018-08-23T12:26:40.218752003 128.797990s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: Added replica on this server.
+2018-08-23T12:26:40.236917390 128.816155s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: This server is Raft leader for term 1. Latest log index is 0.
+2018-08-23T12:26:40.530937958 129.110176s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: Configuration is changing.
+2018-10-13T17:46:47.269381879 0.470644s notice: Recursively removing directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/tmp
+2018-10-13T17:46:47.304400623 0.505664s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-10-13T17:46:47.306715422 0.507978s notice: Running on Linux 4.15.0-36-generic x86_64
+2018-10-13T17:46:47.306782227 0.508043s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-10-13T17:46:47.512310793 0.713578s info: Automatically using cache size of 2258 MB
+2018-10-13T17:46:47.514772972 0.716035s notice: Listening for intracluster connections on port 29015
+2018-10-13T17:46:48.466087631 1.667349s notice: Listening for client driver connections on port 28015
+2018-10-13T17:46:48.466256089 1.667517s notice: Listening for administrative HTTP connections on port 8080
+2018-10-13T17:46:48.466260789 1.667522s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T17:46:48.466265373 1.667526s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T17:46:48.466269207 1.667530s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T17:46:48.466277114 1.667538s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-10-13T17:46:48.466280879 1.667542s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-10-13T17:46:49.516092067 2.717354s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 4.
+2018-10-13T17:46:49.533875393 2.735136s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 4. Latest log index is 10.
+2018-10-13T17:46:50.432997360 3.634258s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: Starting a new Raft election for term 2.
+2018-10-13T17:46:50.488173999 3.689435s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: This server is Raft leader for term 2. Latest log index is 4.
+2018-10-13T17:47:29.050765815 42.252027s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/d030647b-4f08-48e3-9eb1-4470e986823c
+2018-10-13T17:47:29.050777097 42.252038s info: Table d030647b-4f08-48e3-9eb1-4470e986823c: Deleted the table.
+2018-10-13T17:47:29.464007653 42.665269s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: Starting a new Raft election for term 1.
+2018-10-13T17:47:29.464165129 42.665426s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: Added replica on this server.
+2018-10-13T17:47:29.473713795 42.674975s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-13T17:47:29.984623883 43.185885s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: Configuration is changing.
+2018-10-13T19:56:01.106053139 0.487801s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-10-13T19:56:01.128787181 0.510532s notice: Running on Linux 4.15.0-36-generic x86_64
+2018-10-13T19:56:01.128880113 0.510621s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-10-13T19:56:01.188716823 0.570461s info: Automatically using cache size of 2196 MB
+2018-10-13T19:56:01.190112663 0.571854s notice: Listening for intracluster connections on port 29015
+2018-10-13T19:56:01.376285032 0.758027s notice: Listening for client driver connections on port 28015
+2018-10-13T19:56:01.376446968 0.758188s notice: Listening for administrative HTTP connections on port 8080
+2018-10-13T19:56:01.376548846 0.758290s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T19:56:01.376552785 0.758294s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T19:56:01.376556256 0.758297s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-13T19:56:01.376559240 0.758300s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-10-13T19:56:01.376562384 0.758304s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-10-13T19:56:03.019598011 2.401340s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: Starting a new Raft election for term 2.
+2018-10-13T19:56:03.031587413 2.413329s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: This server is Raft leader for term 2. Latest log index is 4.
+2018-10-13T19:56:03.080579161 2.462321s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 5.
+2018-10-13T19:56:03.087111766 2.468853s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 5. Latest log index is 13.
+2018-10-13T19:57:03.259549584 62.641291s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/586f0f69-6a54-47ef-a9ef-b331ccec4430
+2018-10-13T19:57:03.259555411 62.641297s info: Table 586f0f69-6a54-47ef-a9ef-b331ccec4430: Deleted the table.
+2018-10-13T19:57:03.670485116 63.052227s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Starting a new Raft election for term 1.
+2018-10-13T19:57:03.670603998 63.052345s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Added replica on this server.
+2018-10-13T19:57:03.693525461 63.075267s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-13T19:57:04.215493765 63.597235s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Configuration is changing.
+2018-10-24T00:25:33.310546938 0.576897s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-10-24T00:25:33.328144898 0.594494s notice: Running on Linux 4.15.0-36-generic x86_64
+2018-10-24T00:25:33.328227040 0.594573s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-10-24T00:25:33.435244477 0.701594s info: Automatically using cache size of 1630 MB
+2018-10-24T00:25:33.445524004 0.711870s notice: Listening for intracluster connections on port 29015
+2018-10-24T00:25:33.660073738 0.926419s notice: Listening for client driver connections on port 28015
+2018-10-24T00:25:33.660198111 0.926544s notice: Listening for administrative HTTP connections on port 8080
+2018-10-24T00:25:33.660201412 0.926547s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-24T00:25:33.660203694 0.926549s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-24T00:25:33.660205737 0.926551s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-24T00:25:33.660215757 0.926561s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-10-24T00:25:33.660218841 0.926564s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-10-24T00:25:34.825608863 2.091955s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Starting a new Raft election for term 2.
+2018-10-24T00:25:34.852226157 2.118572s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: This server is Raft leader for term 2. Latest log index is 4.
+2018-10-24T00:25:35.467034135 2.733380s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 6.
+2018-10-24T00:25:35.628924450 2.895271s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 6. Latest log index is 16.
+2018-10-26T23:47:26.346274014 0.490790s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-10-26T23:47:26.366435336 0.510951s notice: Running on Linux 4.15.0-36-generic x86_64
+2018-10-26T23:47:26.366526383 0.511040s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-10-26T23:47:26.656636744 0.801153s info: Automatically using cache size of 1379 MB
+2018-10-26T23:47:26.667064823 0.811578s notice: Listening for intracluster connections on port 29015
+2018-10-26T23:47:26.959928442 1.104442s notice: Listening for client driver connections on port 28015
+2018-10-26T23:47:26.960075199 1.104589s notice: Listening for administrative HTTP connections on port 8080
+2018-10-26T23:47:26.960079812 1.104593s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-26T23:47:26.960083710 1.104597s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-26T23:47:26.960098491 1.104612s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-26T23:47:26.960102391 1.104616s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-10-26T23:47:26.960105808 1.104619s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-10-26T23:47:28.252840485 2.397354s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Starting a new Raft election for term 3.
+2018-10-26T23:47:28.306832603 2.451346s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: This server is Raft leader for term 3. Latest log index is 7.
+2018-10-26T23:47:28.730593103 2.875107s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 7.
+2018-10-26T23:47:28.828269219 2.972783s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 7. Latest log index is 19.
+2018-10-26T23:52:10.175217702 284.319731s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/72735dd8-431c-4032-9008-51f2fbc63bc3
+2018-10-26T23:52:10.175225867 284.319739s info: Table 72735dd8-431c-4032-9008-51f2fbc63bc3: Deleted the table.
+2018-10-26T23:52:10.708811518 284.853325s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: Starting a new Raft election for term 1.
+2018-10-26T23:52:10.709107933 284.853622s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: Added replica on this server.
+2018-10-26T23:52:10.775119095 284.919633s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-26T23:52:11.686170523 285.830685s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: Configuration is changing.
+2018-10-27T01:11:39.092289453 5053.236803s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2018-10-27T01:11:39.092426109 5053.236940s notice: Shutting down client connections...
+2018-10-27T01:11:39.092692476 5053.237206s notice: All client connections closed.
+2018-10-27T01:11:39.092698894 5053.237212s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2018-10-27T01:11:39.098912223 5053.243426s notice: Storage engine shut down.
+2018-10-31T01:56:18.937227401 0.685699s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-10-31T01:56:18.957079333 0.705552s notice: Running on Linux 4.15.0-36-generic x86_64
+2018-10-31T01:56:18.957161962 0.705631s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-10-31T01:56:19.379342470 1.127815s info: Automatically using cache size of 1685 MB
+2018-10-31T01:56:19.395876018 1.144345s notice: Listening for intracluster connections on port 29015
+2018-10-31T01:56:19.666884391 1.415354s notice: Listening for client driver connections on port 28015
+2018-10-31T01:56:19.667056036 1.415525s notice: Listening for administrative HTTP connections on port 8080
+2018-10-31T01:56:19.667157066 1.415626s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-31T01:56:19.667161338 1.415630s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-31T01:56:19.667163825 1.415632s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-10-31T01:56:19.667166399 1.415635s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-10-31T01:56:19.667169096 1.415638s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-10-31T01:56:21.153962552 2.902432s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: Starting a new Raft election for term 2.
+2018-10-31T01:56:21.202124038 2.950593s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: This server is Raft leader for term 2. Latest log index is 4.
+2018-10-31T01:56:21.395583323 3.144053s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 8.
+2018-10-31T01:56:21.492229837 3.240699s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 8. Latest log index is 22.
+2018-10-31T02:02:42.603646401 384.352116s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/e57906a2-a385-4269-8059-9d0dc86b56dd
+2018-10-31T02:02:42.603654760 384.352124s info: Table e57906a2-a385-4269-8059-9d0dc86b56dd: Deleted the table.
+2018-10-31T02:02:43.223430777 384.971900s info: Table 9528f685-19bd-4217-be3c-d7e6737ab2d4: Starting a new Raft election for term 1.
+2018-10-31T02:02:43.223546884 384.972016s info: Table 9528f685-19bd-4217-be3c-d7e6737ab2d4: Added replica on this server.
+2018-10-31T02:02:43.292167468 385.040637s info: Table 9528f685-19bd-4217-be3c-d7e6737ab2d4: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-31T02:02:44.147098922 385.895568s info: Table 9528f685-19bd-4217-be3c-d7e6737ab2d4: Configuration is changing.
+2018-10-31T02:07:02.360230655 644.108700s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/9528f685-19bd-4217-be3c-d7e6737ab2d4
+2018-10-31T02:07:02.360236860 644.108706s info: Table 9528f685-19bd-4217-be3c-d7e6737ab2d4: Deleted the table.
+2018-10-31T02:07:02.918095268 644.666564s info: Table b4451441-fc38-4a58-bab1-1e768f811bb5: Starting a new Raft election for term 1.
+2018-10-31T02:07:02.918268270 644.666737s info: Table b4451441-fc38-4a58-bab1-1e768f811bb5: Added replica on this server.
+2018-10-31T02:07:02.970545945 644.719015s info: Table b4451441-fc38-4a58-bab1-1e768f811bb5: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-31T02:07:03.892806059 645.641276s info: Table b4451441-fc38-4a58-bab1-1e768f811bb5: Configuration is changing.
+2018-10-31T02:07:35.194731508 676.943200s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/b4451441-fc38-4a58-bab1-1e768f811bb5
+2018-10-31T02:07:35.194738522 676.943207s info: Table b4451441-fc38-4a58-bab1-1e768f811bb5: Deleted the table.
+2018-10-31T02:07:35.733777411 677.482247s info: Table 31410f1e-476d-4709-8390-c3322778a241: Starting a new Raft election for term 1.
+2018-10-31T02:07:35.734081299 677.482551s info: Table 31410f1e-476d-4709-8390-c3322778a241: Added replica on this server.
+2018-10-31T02:07:35.786866283 677.535336s info: Table 31410f1e-476d-4709-8390-c3322778a241: This server is Raft leader for term 1. Latest log index is 0.
+2018-10-31T02:07:36.653458036 678.401927s info: Table 31410f1e-476d-4709-8390-c3322778a241: Configuration is changing.
+2018-11-20T10:55:36.872241295 0.934051s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-11-20T10:55:36.903897242 0.965708s notice: Running on Linux 4.15.0-39-generic x86_64
+2018-11-20T10:55:36.903973789 0.965782s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-11-20T10:55:37.210017435 1.271828s info: Automatically using cache size of 2034 MB
+2018-11-20T10:55:37.238007190 1.299815s notice: Listening for intracluster connections on port 29015
+2018-11-20T10:55:37.675159993 1.736968s notice: Listening for client driver connections on port 28015
+2018-11-20T10:55:37.675445653 1.737254s notice: Listening for administrative HTTP connections on port 8080
+2018-11-20T10:55:37.675451487 1.737259s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-20T10:55:37.675455950 1.737263s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-20T10:55:37.675460285 1.737268s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-20T10:55:37.675483403 1.737291s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-20T10:55:37.675487926 1.737295s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-11-20T10:55:38.670891653 2.732700s info: Table 31410f1e-476d-4709-8390-c3322778a241: Starting a new Raft election for term 2.
+2018-11-20T10:55:38.722378888 2.784187s info: Table 31410f1e-476d-4709-8390-c3322778a241: This server is Raft leader for term 2. Latest log index is 4.
+2018-11-20T10:55:39.076666276 3.138474s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 9.
+2018-11-20T10:55:39.177438007 3.239246s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 9. Latest log index is 26.
+2018-11-20T10:56:52.607500501 76.669308s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/31410f1e-476d-4709-8390-c3322778a241
+2018-11-20T10:56:52.607509337 76.669317s info: Table 31410f1e-476d-4709-8390-c3322778a241: Deleted the table.
+2018-11-20T10:56:53.093159990 77.154968s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: Starting a new Raft election for term 1.
+2018-11-20T10:56:53.093347278 77.155155s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: Added replica on this server.
+2018-11-20T10:56:53.162934390 77.224742s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-20T10:56:54.017840588 78.079648s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: Configuration is changing.
+2018-11-21T12:07:59.059954993 6.012994s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-11-21T12:07:59.095000895 6.048039s notice: Running on Linux 4.15.0-39-generic x86_64
+2018-11-21T12:07:59.095093666 6.048128s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-11-21T12:07:59.447163981 6.400201s info: Automatically using cache size of 1493 MB
+2018-11-21T12:07:59.460528427 6.413563s notice: Listening for intracluster connections on port 29015
+2018-11-21T12:07:59.842181260 6.795216s notice: Listening for client driver connections on port 28015
+2018-11-21T12:07:59.842351207 6.795386s notice: Listening for administrative HTTP connections on port 8080
+2018-11-21T12:07:59.842356919 6.795391s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-21T12:07:59.842361703 6.795396s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-21T12:07:59.842365605 6.795400s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-21T12:07:59.842386846 6.795421s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-21T12:07:59.842391643 6.795426s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-11-21T12:08:01.255533023 8.208568s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 10.
+2018-11-21T12:08:01.322303588 8.275338s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 10. Latest log index is 29.
+2018-11-21T12:08:01.550596465 8.503631s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: Starting a new Raft election for term 2.
+2018-11-21T12:08:01.643874464 8.596909s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: This server is Raft leader for term 2. Latest log index is 4.
+2018-11-21T12:09:03.931951981 70.884987s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/153cb42a-54ea-4148-bd53-7e4dd2bc630d
+2018-11-21T12:09:03.931964437 70.884999s info: Table 153cb42a-54ea-4148-bd53-7e4dd2bc630d: Deleted the table.
+2018-11-21T12:09:05.149635419 72.102670s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: Starting a new Raft election for term 1.
+2018-11-21T12:09:05.149840217 72.102874s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: Added replica on this server.
+2018-11-21T12:09:05.274006996 72.227041s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-21T12:09:06.661187531 73.614222s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: Configuration is changing.
+2018-11-25T19:52:21.226495467 1.130563s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-11-25T19:52:21.296531175 1.200600s notice: Running on Linux 4.15.0-39-generic x86_64
+2018-11-25T19:52:21.296665029 1.200730s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-11-25T19:52:21.820297873 1.724365s info: Automatically using cache size of 1600 MB
+2018-11-25T19:52:21.828321645 1.732386s notice: Listening for intracluster connections on port 29015
+2018-11-25T19:52:23.252819875 3.156885s notice: Listening for client driver connections on port 28015
+2018-11-25T19:52:23.252999327 3.157064s notice: Listening for administrative HTTP connections on port 8080
+2018-11-25T19:52:23.253004172 3.157069s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-25T19:52:23.253008069 3.157072s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-25T19:52:23.253012243 3.157077s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-11-25T19:52:23.253028583 3.157093s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-11-25T19:52:23.253032906 3.157097s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-11-25T19:52:24.315719877 4.219785s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 11.
+2018-11-25T19:52:24.366713148 4.270778s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 11. Latest log index is 32.
+2018-11-25T19:52:25.057954469 4.962019s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: Starting a new Raft election for term 2.
+2018-11-25T19:52:25.126426382 5.030491s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: This server is Raft leader for term 2. Latest log index is 4.
+2018-11-25T22:06:05.352725813 8025.256791s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/f3768190-14cd-4af5-93e9-d26d469f5d3a
+2018-11-25T22:06:05.352735925 8025.256800s info: Table f3768190-14cd-4af5-93e9-d26d469f5d3a: Deleted the table.
+2018-11-25T22:06:05.924615592 8025.828680s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: Starting a new Raft election for term 1.
+2018-11-25T22:06:05.924753168 8025.828818s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: Added replica on this server.
+2018-11-25T22:06:05.963931031 8025.867996s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: This server is Raft leader for term 1. Latest log index is 0.
+2018-11-25T22:06:06.874560700 8026.778626s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: Configuration is changing.
+2018-12-05T21:58:41.560272730 1.597337s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-12-05T21:58:41.595516861 1.632580s notice: Running on Linux 4.15.0-39-generic x86_64
+2018-12-05T21:58:41.595629078 1.632688s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-12-05T21:58:41.929045912 1.966108s info: Automatically using cache size of 1174 MB
+2018-12-05T21:58:41.939214426 1.976273s notice: Listening for intracluster connections on port 29015
+2018-12-05T21:58:42.298535990 2.335595s notice: Listening for client driver connections on port 28015
+2018-12-05T21:58:42.299307924 2.336367s notice: Listening for administrative HTTP connections on port 8080
+2018-12-05T21:58:42.299321511 2.336380s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-05T21:58:42.299333019 2.336392s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-05T21:58:42.299347311 2.336406s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-05T21:58:42.299350307 2.336409s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-05T21:58:42.299353404 2.336412s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-12-05T21:58:43.176042499 3.213102s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: Starting a new Raft election for term 2.
+2018-12-05T21:58:43.223905515 3.260965s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: This server is Raft leader for term 2. Latest log index is 4.
+2018-12-05T21:58:43.414727434 3.451787s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 12.
+2018-12-05T21:58:43.512507888 3.549567s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 12. Latest log index is 35.
+2018-12-05T21:58:45.663547302 5.700607s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/317543e8-5446-4d1b-8a0f-be44cd227d4a
+2018-12-05T21:58:45.663556273 5.700615s info: Table 317543e8-5446-4d1b-8a0f-be44cd227d4a: Deleted the table.
+2018-12-05T21:58:46.273750225 6.310810s info: Table 01d197cc-f33b-45bb-95f5-b0a130e41443: Starting a new Raft election for term 1.
+2018-12-05T21:58:46.274057506 6.311117s info: Table 01d197cc-f33b-45bb-95f5-b0a130e41443: Added replica on this server.
+2018-12-05T21:58:46.352068960 6.389128s info: Table 01d197cc-f33b-45bb-95f5-b0a130e41443: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-05T21:58:47.196402895 7.233462s info: Table 01d197cc-f33b-45bb-95f5-b0a130e41443: Configuration is changing.
+2018-12-05T22:00:49.866661686 129.903721s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/01d197cc-f33b-45bb-95f5-b0a130e41443
+2018-12-05T22:00:49.866669571 129.903728s info: Table 01d197cc-f33b-45bb-95f5-b0a130e41443: Deleted the table.
+2018-12-05T22:00:50.395066370 130.432126s info: Table a3c9928e-dfda-452b-9b4a-c5d5fb322aa1: Starting a new Raft election for term 1.
+2018-12-05T22:00:50.395450394 130.432510s info: Table a3c9928e-dfda-452b-9b4a-c5d5fb322aa1: Added replica on this server.
+2018-12-05T22:00:50.446751319 130.483811s info: Table a3c9928e-dfda-452b-9b4a-c5d5fb322aa1: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-05T22:00:51.301404465 131.338464s info: Table a3c9928e-dfda-452b-9b4a-c5d5fb322aa1: Configuration is changing.
+2018-12-05T22:01:50.865592757 190.902652s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/a3c9928e-dfda-452b-9b4a-c5d5fb322aa1
+2018-12-05T22:01:50.865601500 190.902660s info: Table a3c9928e-dfda-452b-9b4a-c5d5fb322aa1: Deleted the table.
+2018-12-05T22:01:51.478679304 191.515738s info: Table 63787dcf-c85d-444e-863e-d111ca410823: Starting a new Raft election for term 1.
+2018-12-05T22:01:51.478869307 191.515928s info: Table 63787dcf-c85d-444e-863e-d111ca410823: Added replica on this server.
+2018-12-05T22:01:51.534531259 191.571591s info: Table 63787dcf-c85d-444e-863e-d111ca410823: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-05T22:01:52.389762458 192.426822s info: Table 63787dcf-c85d-444e-863e-d111ca410823: Configuration is changing.
+2018-12-05T22:11:37.057609988 777.094669s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/63787dcf-c85d-444e-863e-d111ca410823
+2018-12-05T22:11:37.057618294 777.094677s info: Table 63787dcf-c85d-444e-863e-d111ca410823: Deleted the table.
+2018-12-05T22:11:37.605265982 777.642325s info: Table 28b60def-4dc6-46eb-bce2-9b0d2b688682: Starting a new Raft election for term 1.
+2018-12-05T22:11:37.605498640 777.642558s info: Table 28b60def-4dc6-46eb-bce2-9b0d2b688682: Added replica on this server.
+2018-12-05T22:11:37.665636170 777.702695s info: Table 28b60def-4dc6-46eb-bce2-9b0d2b688682: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-05T22:11:38.487029517 778.524089s info: Table 28b60def-4dc6-46eb-bce2-9b0d2b688682: Configuration is changing.
+2018-12-06T00:16:07.463587273 8247.500646s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/28b60def-4dc6-46eb-bce2-9b0d2b688682
+2018-12-06T00:16:07.463595951 8247.500655s info: Table 28b60def-4dc6-46eb-bce2-9b0d2b688682: Deleted the table.
+2018-12-06T00:16:08.006580905 8248.043641s info: Table 57cdd3f5-bc8d-42b8-810f-7781a43fac59: Starting a new Raft election for term 1.
+2018-12-06T00:16:08.006984031 8248.044044s info: Table 57cdd3f5-bc8d-42b8-810f-7781a43fac59: Added replica on this server.
+2018-12-06T00:16:08.026119799 8248.063179s info: Table 57cdd3f5-bc8d-42b8-810f-7781a43fac59: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-06T00:16:08.537800190 8248.574860s info: Table 57cdd3f5-bc8d-42b8-810f-7781a43fac59: Configuration is changing.
+2018-12-06T00:17:10.659893565 8310.696953s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/57cdd3f5-bc8d-42b8-810f-7781a43fac59
+2018-12-06T00:17:10.659902612 8310.696961s info: Table 57cdd3f5-bc8d-42b8-810f-7781a43fac59: Deleted the table.
+2018-12-06T00:17:11.378401796 8311.415461s info: Table d6033cab-513f-4ea4-bbb2-ac186da59c59: Starting a new Raft election for term 1.
+2018-12-06T00:17:11.378508516 8311.415567s info: Table d6033cab-513f-4ea4-bbb2-ac186da59c59: Added replica on this server.
+2018-12-06T00:17:11.428653713 8311.465713s info: Table d6033cab-513f-4ea4-bbb2-ac186da59c59: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-06T00:17:12.239203751 8312.276263s info: Table d6033cab-513f-4ea4-bbb2-ac186da59c59: Configuration is changing.
+2018-12-06T01:34:58.337828517 12978.374888s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/d6033cab-513f-4ea4-bbb2-ac186da59c59
+2018-12-06T01:34:58.337837872 12978.374897s info: Table d6033cab-513f-4ea4-bbb2-ac186da59c59: Deleted the table.
+2018-12-06T01:34:58.960412208 12978.997471s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Starting a new Raft election for term 1.
+2018-12-06T01:34:58.960664750 12978.997724s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Added replica on this server.
+2018-12-06T01:34:59.026028662 12979.063088s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-06T01:34:59.527455050 12979.564514s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Configuration is changing.
+2018-12-06T02:12:27.672312507 0.485051s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-12-06T02:12:27.676473876 0.489211s notice: Running on Linux 4.15.0-39-generic x86_64
+2018-12-06T02:12:27.676544555 0.489280s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-12-06T02:12:27.719484843 0.532222s info: Automatically using cache size of 1589 MB
+2018-12-06T02:12:27.749615349 0.562351s notice: Listening for intracluster connections on port 29015
+2018-12-06T02:12:27.879442626 0.692178s notice: Listening for client driver connections on port 28015
+2018-12-06T02:12:27.879630650 0.692366s notice: Listening for administrative HTTP connections on port 8080
+2018-12-06T02:12:27.879635898 0.692371s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-06T02:12:27.879639665 0.692375s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-06T02:12:27.879643097 0.692378s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-06T02:12:27.879646250 0.692381s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-06T02:12:27.879657027 0.692392s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-12-06T02:12:29.368630354 2.181366s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Starting a new Raft election for term 2.
+2018-12-06T02:12:29.445279521 2.258015s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: This server is Raft leader for term 2. Latest log index is 4.
+2018-12-06T02:12:29.604750082 2.417486s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 13.
+2018-12-06T02:12:29.633784813 2.446520s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 13. Latest log index is 38.
+2018-12-08T15:59:32.515977407 0.134688s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-12-08T15:59:32.548115240 0.166823s notice: Running on Linux 4.15.0-42-generic x86_64
+2018-12-08T15:59:32.548168067 0.166874s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-12-08T15:59:32.639031297 0.257740s info: Automatically using cache size of 1731 MB
+2018-12-08T15:59:32.641130418 0.259836s notice: Listening for intracluster connections on port 29015
+2018-12-08T15:59:32.942576041 0.561282s notice: Listening for client driver connections on port 28015
+2018-12-08T15:59:32.942877879 0.561584s notice: Listening for administrative HTTP connections on port 8080
+2018-12-08T15:59:32.942885756 0.561592s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-08T15:59:32.943266803 0.561973s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-08T15:59:32.943274451 0.561980s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-08T15:59:32.943280448 0.561986s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-08T15:59:32.943286414 0.561992s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-12-08T15:59:33.081014204 0.699720s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2018-12-08T15:59:34.615470178 2.234177s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 14.
+2018-12-08T15:59:34.644194056 2.262900s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 14. Latest log index is 41.
+2018-12-08T15:59:34.768953760 2.387660s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Starting a new Raft election for term 3.
+2018-12-08T15:59:34.777164241 2.395871s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: This server is Raft leader for term 3. Latest log index is 8.
+2018-12-08T16:01:26.880757476 114.499464s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/7b9c236b-e328-497a-8596-88a4cbabf5ec
+2018-12-08T16:01:26.880769170 114.499475s info: Table 7b9c236b-e328-497a-8596-88a4cbabf5ec: Deleted the table.
+2018-12-08T16:01:27.452985005 115.071691s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Starting a new Raft election for term 1.
+2018-12-08T16:01:27.453432893 115.072139s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Added replica on this server.
+2018-12-08T16:01:27.469369715 115.088076s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-08T16:01:27.960933874 115.579640s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Configuration is changing.

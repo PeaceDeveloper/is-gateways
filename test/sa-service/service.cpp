@@ -46,7 +46,8 @@ int main(int argc, char* argv[]) {
     auto status_msg = is.consume(status);
     is::logger()->info("mensagem consumida");
     auto statusDecoded = is::msgpack<Status>(status_msg);
-    is::logger()->info("razão {}", statusDecoded.value);
+    is::logger()->info("Situação {}", statusDecoded.value);
+    is::logger()->info("Motivo: {}", statusDecoded.why);
   }
 
   /*

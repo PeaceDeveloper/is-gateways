@@ -1,0 +1,24 @@
+Experimento que consiste os seguintes serviços
+- Um serviço para detectar quando o bebê estiver sozinho no quarto. Esse serviço para utilizar reconhecimento de padrão através das imagens das câmeras.
+- um serviço para detectar o som de um choro do bebê.
+- Um serviço sensível à situação para quando o bebê está sozinho e chorando acionar o robô para acompanhar o Bebê.
+- Um serviço para exibir as mensagens de status do robô
+
+-- Próximos passos
+...Gerar o código para publicar serviço inexistente.
+...Gerar o código para adicinar mais de um fato.
+...Bolar uma maneira para exibir esse experimento.
+
+if (servicedelivery == null) {
+    	Status status = new Status();
+		status.setValue("notOk");
+		status.setWhy("Criança não está chorando");
+    	try {    		
+			conn.publishServiceDelivery("bbCryService", status);
+			p = conn.Map();
+			servicedelivery = p.getAnyServiceDelivery(thing -> thing.getName().equals("bbCryService"));
+		} catch (Exception e) {			
+			e.printStackTrace();
+		}    	
+    }
+
