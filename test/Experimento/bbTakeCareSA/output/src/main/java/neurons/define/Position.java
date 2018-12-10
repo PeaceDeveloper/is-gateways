@@ -36,7 +36,7 @@ public class Position extends MotorNeuron {
 		Robot robot = null;
 		try {			
 			robot = (Robot)AbstractNeuronsTopology.platform
-					.getAnyRobot(a -> a.getName() == "rob1");
+					.getAnyRobot(null);
 			robot.sendPose(10, 1, 1, 2);
 			
 		} catch (Exception e) {			
@@ -49,7 +49,7 @@ public class Position extends MotorNeuron {
 		Robot robot = null;
 		try {			
 			robot = (Robot)AbstractNeuronsTopology.platform
-					.getAnyRobot(a -> a.getName() == "rob1");
+					.getAnyRobot(null);
 			robot.sendPose(0, 2, 2, 2);
 		} catch (Exception e) {
 			e.printStackTrace();

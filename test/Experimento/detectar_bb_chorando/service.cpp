@@ -36,21 +36,26 @@ int main(int argc, char* argv[]) {
   is::logger()->info("make client");
   auto status = is.subscribe("bbStatusService.info", "sa-data");
   is::logger()->info("subscrito");
+  bool toCry = false;
 
   while(1){
     auto statusEncode = Status{"Cry", "Bebê está chorando"};
+    if (!toCry){
+      statusEncode = Status{"NotCry", "Bebê não está chorando"};
+      toCry = true;
+    }
+    else{
+      toCry = false;
+    }
     is.publish("bbStatusService.info", is::msgpack(statusEncode), "sa-data");
     is::logger()->info("enviou mensagem");
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-    is::logger()->info("aguardando mensagem");
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    is::logger()->info("aguardando mensagem");    
     auto status_msg = is.consume(status);
-    is::logger()->info("mensagem consumida");
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    is::logger()->info("mensagem consumida");    
     auto statusDecoded = is::msgpack<Status>(status_msg);
     is::logger()->info("Situação {}", statusDecoded.value);
     is::logger()->info("Motivo: {}", statusDecoded.why);
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    std::this_thread::sleep_for(std::chrono::milliseconds(8000 + ( std::rand() % ( 10000 - 8000 + 1 ) )));
   }
   return 0;
 }

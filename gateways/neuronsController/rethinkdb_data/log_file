@@ -1314,3 +1314,31 @@
 2018-12-08T16:01:27.453432893 115.072139s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Added replica on this server.
 2018-12-08T16:01:27.469369715 115.088076s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: This server is Raft leader for term 1. Latest log index is 0.
 2018-12-08T16:01:27.960933874 115.579640s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Configuration is changing.
+2018-12-09T19:48:50.638604751 0.471494s notice: Running rethinkdb 2.3.6 (GCC 5.4.0)...
+2018-12-09T19:48:50.658728310 0.491615s notice: Running on Linux 4.15.0-42-generic x86_64
+2018-12-09T19:48:50.658794312 0.491679s notice: Loading data from directory /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data
+2018-12-09T19:48:50.906817448 0.739705s info: Automatically using cache size of 595 MB
+2018-12-09T19:48:50.923280223 0.756165s notice: Listening for intracluster connections on port 29015
+2018-12-09T19:48:51.271446771 1.104331s notice: Listening for client driver connections on port 28015
+2018-12-09T19:48:51.271626826 1.104511s notice: Listening for administrative HTTP connections on port 8080
+2018-12-09T19:48:51.271645326 1.104530s notice: Listening on cluster addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-09T19:48:51.271683359 1.104568s notice: Listening on driver addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-09T19:48:51.271691454 1.104576s notice: Listening on http addresses: 127.0.0.1, 127.0.1.1, ::1
+2018-12-09T19:48:51.271702998 1.104587s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2018-12-09T19:48:51.271713705 1.104598s notice: Server ready, "ubuntu_rm9" 06679589-ba9e-427b-85e6-43a101528614
+2018-12-09T19:48:52.776948946 2.609834s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Starting a new Raft election for term 2.
+2018-12-09T19:48:52.791664290 2.624549s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: This server is Raft leader for term 2. Latest log index is 4.
+2018-12-09T19:48:53.025374822 2.858259s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: Starting a new Raft election for term 15.
+2018-12-09T19:48:53.091034540 2.923919s info: Table 479dbe38-be5b-42b0-8746-8f0666d88592: This server is Raft leader for term 15. Latest log index is 44.
+2018-12-09T20:01:47.170346977 777.003232s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/adef2bc6-fabb-41e5-bcd2-746180e82b86
+2018-12-09T20:01:47.170359823 777.003244s info: Table adef2bc6-fabb-41e5-bcd2-746180e82b86: Deleted the table.
+2018-12-09T20:01:47.665943208 777.498828s info: Table 5b7ebdf3-39f9-410c-867b-f4a75ac25536: Starting a new Raft election for term 1.
+2018-12-09T20:01:47.666064912 777.498949s info: Table 5b7ebdf3-39f9-410c-867b-f4a75ac25536: Added replica on this server.
+2018-12-09T20:01:47.707869866 777.540755s info: Table 5b7ebdf3-39f9-410c-867b-f4a75ac25536: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-09T20:01:48.197240351 778.030125s info: Table 5b7ebdf3-39f9-410c-867b-f4a75ac25536: Configuration is changing.
+2018-12-09T20:25:45.339294091 2215.172179s notice: Removing file /home/tiago/Documents/is-gateways/gateways/neuronsController/rethinkdb_data/5b7ebdf3-39f9-410c-867b-f4a75ac25536
+2018-12-09T20:25:45.339321348 2215.172206s info: Table 5b7ebdf3-39f9-410c-867b-f4a75ac25536: Deleted the table.
+2018-12-09T20:25:46.065740926 2215.898626s info: Table 29bf4108-3da7-4edf-89d0-78e08f8cf071: Starting a new Raft election for term 1.
+2018-12-09T20:25:46.066017082 2215.898902s info: Table 29bf4108-3da7-4edf-89d0-78e08f8cf071: Added replica on this server.
+2018-12-09T20:25:46.098354256 2215.931239s info: Table 29bf4108-3da7-4edf-89d0-78e08f8cf071: This server is Raft leader for term 1. Latest log index is 0.
+2018-12-09T20:25:47.113183941 2216.946069s info: Table 29bf4108-3da7-4edf-89d0-78e08f8cf071: Configuration is changing.

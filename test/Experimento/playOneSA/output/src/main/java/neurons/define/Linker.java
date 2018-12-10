@@ -13,7 +13,7 @@ import org.drools.RuntimeDroolsException;
 
 public class Linker extends InterNeuron {
   Linker() {
-    super.drlResource = "neurons/define/AtPositionSituation.drl";
+    super.drlResource = "neurons/define/PlayOne.drl";
   }
 
   public void execute(Tuple tuple, BasicOutputCollector outputCollector) {

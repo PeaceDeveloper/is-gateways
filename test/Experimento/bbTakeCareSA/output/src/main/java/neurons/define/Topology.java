@@ -19,7 +19,6 @@ public class Topology {
     IConnection conn = new VisIoTConnection("/home/tiago/Documents/is-gateways/test/Experimento/bbTakeCareSA");
     AbstractPlatform p = conn.Map();;
     ServiceDelivery servicedelivery = p.getAnyServiceDelivery(thing -> thing.getName().equals("bbStatusService"));
-    System.out.println(servicedelivery.getName());
     p.setDeviceInFocus(servicedelivery);
     AbstractNeuronsTopology builder = new NeuronsTopology();
     NeuronsTopology.platform = p;

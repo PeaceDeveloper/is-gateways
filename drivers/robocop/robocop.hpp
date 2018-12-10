@@ -195,7 +195,7 @@ struct Robocop {
  private:
   void initialize() {
     period_ms = 100;
-    delay_ms = 1000;
+    delay_ms = 399;
     pose.position.x = 2;
     pose.position.y = 0;
     pose.position.z = 0;    

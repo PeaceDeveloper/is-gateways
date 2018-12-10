@@ -1,9 +1,0 @@
-package neurons.define;
-import neurons.core.*;
-import br.ufes.inf.lprm.scene.base.*
-rule "TakeCareBBService"
-@role(situation)
-@type(Position)
-when
-f1: ServiceDelivery(status.value == "Cry" || status.value == "Alone")
-then SituationHelper.situationDetected(drools); end

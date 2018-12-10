@@ -16,7 +16,7 @@ import neurons.stream.storm.NeuronsTopology;
 
 public class Topology {
   public static void main(String[] args) {
-    IConnection conn = new VisIoTConnection("/home/tiago/Documents/neurons-cli/target/robotAtPositionX");
+    IConnection conn = new VisIoTConnection("/home/tiago/Documents/is-gateways/test/Experimento/playOneSA");
     AbstractPlatform p = conn.Map();;
     Robot robot = p.getAnyRobot(thing -> thing.getName().equals("rob1"));
     p.setDeviceInFocus(robot);
